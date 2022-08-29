@@ -11,7 +11,7 @@
       <GridItem>7</GridItem>
       <GridItem>8</GridItem>
       <Select
-        style="width: 100px"
+        style="width: 200px"
         v-model="selectedTopics"
         multiple
         @on-change="onSelectChange"
@@ -26,8 +26,8 @@
       </Select>
       <Button type="primary" @click="changeMode">確定</Button>
       {{ mode }}
-      <PreExamMode v-if="mode === '1'" msg="ttt" />
-      <ExamMode v-if="mode === '2'" msg="rrr" />
+      <PreExamMode v-if="mode === Mode.MainPage" msg="ttt" />
+      <ExamMode v-if="mode === Mode.ExamPage" :topicList="topicList" />
 
       <FooterToolbar extra="额外信息">
         <Button>取消</Button>
@@ -42,7 +42,7 @@ import { Options, Vue } from "vue-class-component";
 import Topic from "../types/Topic";
 import ExamMode from "./ExamMode.vue";
 import PreExamMode from "./PreExamMode.vue";
-import testtopic1 from "./topic1 copy.json";
+import { Source, Mode } from "../enum/enum";
 
 @Options({
   components: {
@@ -54,39 +54,43 @@ import testtopic1 from "./topic1 copy.json";
   }
 })
 export default class MainPage extends Vue {
-  topicUploadList = [];
+  // enum ----------------------------------------
+  Mode = Mode;
+  Source = Source;
+
+  topicUploadList: Topic[] = [];
   topicLibList: Topic[] = []; //ok
   selectedTopics: string[] = [];
 
-  topicFromWhere = "select"; //先寫死
+  topicFromWhere: Source = Source.SELECT; //先寫死
 
   msg!: string;
-  mode = "1";
-  config: Topic = testtopic1;
-  changeMode() {
-    this.mode = "2";
+  mode: Mode = Mode.MainPage;
+
+  changeMode(): void {
+    this.mode = Mode.ExamPage;
   }
 
-  onSelectChange() {
+  onSelectChange(): void {
     console.log("onSelectChange");
-    this.topicFromWhere = "select";
+    this.topicFromWhere = Source.SELECT;
   }
-  get topicList() {
-    if (this.topicFromWhere === "select") {
+  get topicList(): Topic[] {
+    if (this.topicFromWhere === Source.SELECT) {
       // 顯示下拉選項區選擇的topic
-      return this.topicLibList.filter(e =>
+      return this.topicLibList.filter((e: Topic) =>
         this.selectedTopics.includes(e.topicName)
       );
     }
-    if (this.topicFromWhere === "upload") {
+    if (this.topicFromWhere === Source.UPLOAD) {
       return this.topicUploadList;
     }
     return [];
   }
 
-  // mounted
+  // mounted ----------------------------------------
   mounted() {
-    console.log("mounted");
+    console.log("mounted", Source);
     this.loadTopicLib();
   }
   loadTopicLib() {

@@ -1,7 +1,7 @@
 <template>
   <div>
     ExamMode
-    {{ msg }}
+    {{ topicList }}
   </div>
 </template>
 
@@ -11,10 +11,12 @@ import { Options, Vue } from "vue-class-component";
 
 @Options({
   props: {
-    msg: Topic
+    topicList: []
   }
 })
-export default class ExamMode extends Vue {}
+export default class ExamMode extends Vue {
+  topicIndex: number;
+}
 </script>
 
 <style scoped></style>

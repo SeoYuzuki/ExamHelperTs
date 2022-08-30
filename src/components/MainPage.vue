@@ -1,108 +1,113 @@
 <template>
-  <div class="hello">
+  <div class="text-block">
     <!-- <Slider v-model="value" range /> -->
-    <Grid :col="4">
-      <GridItem>1</GridItem>
-      <GridItem>2</GridItem>
-      <GridItem>3</GridItem>
-      <GridItem>4</GridItem>
-      <GridItem>5</GridItem>
-      <GridItem>6</GridItem>
-      <GridItem>7</GridItem>
-      <GridItem>8</GridItem>
-      <Select
-        style="width: 200px"
-        v-model="selectedTopics"
-        multiple
-        @on-change="onSelectChange"
-      >
-        <Option
-          v-for="topic in topicLibList"
-          :value="topic.topicName"
-          :key="topic.topicName"
-        >
-          {{ topic.topicName }}
-        </Option>
-      </Select>
-      <Button type="primary" @click="changeMode">確定</Button>
-      {{ mode }}
-      <PreExamMode v-if="mode === Mode.MainPage" msg="ttt" />
-      <ExamMode v-if="mode === Mode.ExamPage" :topicList="topicList" />
-
-      <FooterToolbar extra="额外信息">
-        <Button>取消</Button>
-        <Button type="primary">提交</Button>
-      </FooterToolbar>
+    <Grid :col="1">
+      <GridItem>
+        <Row :gutter="20">
+          <Col span="2" offset="20">
+            <Button type="primary" @click="isShowSetting = !isShowSetting">
+              設定
+            </Button>
+          </Col>
+        </Row>
+      </GridItem>
     </Grid>
+    <Grid :col="1">
+      <GridItem>
+        <PreExamMode
+          v-if="mode === Mode.MainPage"
+          :settings="settings"
+          @onTopicsSelected="onTopicsSelected"
+        />
+        <ExamMode
+          v-if="mode === Mode.ExamPage"
+          :topicList="topicList"
+          :settings="settings"
+          @onBackToMain="onBackToMain"
+        />
+      </GridItem>
+    </Grid>
+
+    <SettingMadel
+      v-model:isShowSetting="isShowSetting"
+      @onChangeSetting="onChangeSetting"
+    />
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import Topic from "../types/Topic";
+import Settings from "../types/Settings";
 import ExamMode from "./ExamMode.vue";
 import PreExamMode from "./PreExamMode.vue";
+import SettingMadel from "./SettingMadel.vue";
 import { Source, Mode } from "../enum/enum";
 
 @Options({
   components: {
     PreExamMode,
-    ExamMode
+    ExamMode,
+    SettingMadel,
   },
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 })
 export default class MainPage extends Vue {
   // enum ----------------------------------------
   Mode = Mode;
   Source = Source;
 
-  topicUploadList: Topic[] = [];
-  topicLibList: Topic[] = []; //ok
-  selectedTopics: string[] = [];
+  topicList: Topic[] = [];
+
+  settings = new Settings();
 
   topicFromWhere: Source = Source.SELECT; //先寫死
 
   msg!: string;
+  isShowSetting = false;
   mode: Mode = Mode.MainPage;
 
-  changeMode(): void {
+  onTopicsSelected(topicList: Topic[]): void {
+    console.log("onTopicsSelected", topicList);
+    this.topicList = topicList;
     this.mode = Mode.ExamPage;
   }
 
-  onSelectChange(): void {
-    console.log("onSelectChange");
-    this.topicFromWhere = Source.SELECT;
+  onBackToMain(): void {
+    this.mode = Mode.MainPage;
   }
-  get topicList(): Topic[] {
-    if (this.topicFromWhere === Source.SELECT) {
-      // 顯示下拉選項區選擇的topic
-      return this.topicLibList.filter((e: Topic) =>
-        this.selectedTopics.includes(e.topicName)
-      );
-    }
-    if (this.topicFromWhere === Source.UPLOAD) {
-      return this.topicUploadList;
-    }
-    return [];
+
+  onChangeSetting(settings: Settings): void {
+    console.log("onChangeSetting", settings);
+    this.settings = settings;
   }
 
   // mounted ----------------------------------------
-  mounted() {
-    console.log("mounted", Source);
-    this.loadTopicLib();
-  }
-  loadTopicLib() {
-    console.log("loadTopicLib");
-    let jsons = require.context("../topicLib", false, /\.json$/);
-    this.topicLibList = jsons.keys().map(obj => {
-      return jsons(obj);
-    });
-    console.log(this.topicLibList);
+  mounted(): void {
+    this.settings = new Settings();
+    console.log("settings", this.settings, this.msg);
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.text-block {
+  white-space: pre-wrap;
+  /* font-size: 55px; */
+  /* display: inline-block;
+        /* max-width: 200px; */
+  width: 100%;
+  /* left: 10%; */
+  height: 100%;
+  text-align: left;
+  /* position: absolute; */
+  /* top: 50%; */
+
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+</style>

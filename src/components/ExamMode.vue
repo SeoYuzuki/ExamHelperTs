@@ -1,22 +1,249 @@
 <template>
   <div>
-    ExamMode
-    {{ topicList }}
+    <div
+      v-if="questionElement"
+      :style="{ 'background-color': colorIn, color: textColor }"
+    >
+      <div>{{ topic.topicName }}</div>
+      <br />
+      <div>{{ questionElement.title }}.</div>
+      <div v-for="question in questionElement.question" :key="question.title">
+        <template v-if="question.startsWith('Picture:')">
+          <img
+            class="pic"
+            :src="`data:image/png;base64,${question.replace('Picture:', '')}`"
+          />
+        </template>
+        <div v-else>{{ question }}</div>
+      </div>
+      <br />
+      <br />
+      <Checkbox-Group v-model="selectedItems">
+        <template
+          v-for="option in questionElement.options"
+          :key="option.optTitle"
+        >
+          <Row>
+            <Checkbox :label="option.optTitle" :key="option.optTitle">
+              <span :class="showError(option)">
+                {{ option.optTitle }}. {{ option.optContent }}
+              </span>
+            </Checkbox>
+          </Row>
+        </template>
+      </Checkbox-Group>
+      <br />
+      <br />
+      <br />
+      <!--  -->
+
+      <FooterToolbar>
+        <Row :gutter="16">
+          <Col span="5">
+            <Space>
+              顯示答案
+              <i-Switch v-model="isChecked"> </i-Switch>
+            </Space>
+          </Col>
+          <Col span="6"> </Col>
+          <Col span="2">
+            <Button type="primary" @click="keydownHandler(37)">
+              <Icon type="md-arrow-round-back" />
+            </Button>
+          </Col>
+          <Col span="2">
+            <Button type="primary" @click="keydownHandler(39)">
+              <Icon type="md-arrow-round-forward" />
+            </Button>
+          </Col>
+          <Col span="6">
+            <Button type="primary" @click="$emit('onBackToMain')">
+              離開
+            </Button>
+          </Col>
+        </Row>
+      </FooterToolbar>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import Topic from "../types/Topic";
-import { Options, Vue } from "vue-class-component";
+import { QuestionElement, Option } from "../types/QuestionElement";
+import { arraysEqual } from "../utils/ArrayUtil";
+import { prop, Vue } from "vue-class-component";
+import { charCodeMap } from "../enum/charCodeMap";
+import Settings from "@/types/Settings";
 
-@Options({
-  props: {
-    topicList: []
+export class Props {
+  topicList = prop<Topic[]>({ required: true });
+  settings = prop<Settings>({ required: true });
+}
+
+export default class ExamMode extends Vue.with(Props) {
+  topicIndex = 0;
+  qIndex = 0;
+  selectedItems: string[] = [];
+  isChecked = false; // 是否檢查答案
+
+  get topic(): Topic {
+    return this.topicList[this.topicIndex];
   }
-})
-export default class ExamMode extends Vue {
-  topicIndex: number;
+
+  get qList(): QuestionElement[] {
+    if (this.topic) {
+      return this.topic.questionElementList;
+    } else {
+      return [];
+    }
+  }
+
+  get questionElement(): QuestionElement {
+    if (this.qList) {
+      return this.qList[this.qIndex];
+    } else {
+      return new QuestionElement();
+    }
+  }
+
+  // 目前答案是否正確
+  get isCorrect(): boolean {
+    return arraysEqual(this.questionElement.answer, this.selectedItems);
+  }
+
+  showError(e: Option): string {
+    if (this.isChecked && this.questionElement.answer.includes(e.optTitle)) {
+      if (this.isCorrect) {
+        return "border-color-green";
+      } else {
+        return "border-color-red";
+      }
+    } else {
+      return "";
+    }
+  }
+  //
+  mounted(): void {
+    window.addEventListener("keydown", (e) => {
+      if (e.keyCode == 32 && e.target == document.body) {
+        e.preventDefault();
+      }
+      this.keydownHandler(e.keyCode);
+    });
+  }
+
+  keydownHandler(keyCode: number): void {
+    (document.activeElement as HTMLElement)?.blur(); // 清除focus
+
+    if (keyCode == 37 /*左*/ || keyCode == 39 /*右*/) {
+      this.selectedItems = [];
+    }
+
+    this.changeQ(keyCode); // 過題
+
+    let charCode: string = String.fromCharCode(keyCode);
+
+    this.pressAns(charCode); //輸入答案
+
+    if (charCode == "\r" /*enter*/ || charCode == " " /*space*/) {
+      // 檢查答案與否
+      this.isChecked = !this.isChecked;
+    }
+  }
+  // 過題
+  changeQ(keyCode: number): void {
+    if (![37, 38, 39, 40].includes(keyCode)) {
+      return;
+    }
+
+    if (!this.isDefaultChecked) {
+      this.isChecked = false;
+    }
+
+    if (keyCode == 37 /*左*/) {
+      if (this.qIndex == 0) {
+        if (this.topicIndex == 0) {
+          this.$Message.warning("最前面");
+        } else {
+          this.topicIndex = this.topicIndex - 1;
+          this.qIndex = this.qList.length - 1;
+        }
+        return;
+      }
+      this.qIndex = this.qIndex - 1;
+    }
+    if (keyCode == 39 /*右*/) {
+      if (this.qIndex + 1 == this.qList.length) {
+        if (this.topicIndex + 1 == this.topicList.length) {
+          this.$Message.warning("最末題");
+        } else {
+          this.topicIndex = this.topicIndex + 1;
+          this.qIndex = 0;
+        }
+        return;
+      }
+      this.qIndex = this.qIndex + 1;
+    }
+    // if (keyCode == 38 /*上*/) {
+    // }
+
+    // if (keyCode == 40 /*下*/) {
+    // }
+  }
+
+  /** 鍵盤輸入答案 填入 */
+  pressAns(charCode: string): void {
+    let ansKey = charCodeMap[charCode];
+    if (!ansKey) {
+      return;
+    }
+    if (!this.selectedItems.includes(ansKey)) {
+      this.selectedItems.push(ansKey);
+    } else {
+      // remove
+      this.selectedItems = this.selectedItems.filter((item) => item !== ansKey);
+    }
+  }
+
+  // setting 相關-----------------------------
+  // 是否切換題目時依舊顯示答案
+  get isDefaultChecked(): boolean {
+    return this.settings.isDefaultChecked;
+  }
+  // 考題區背景顏色
+  get colorIn(): string {
+    return this.settings.colorIn;
+  }
+  //字體顏色
+  get textColor(): string {
+    return this.settings.textColor;
+  }
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+span {
+  font-size: v-bind("fontSize");
+}
+
+.border-color-red {
+  border-color: rgb(179, 36, 36);
+  border-width: 2px;
+  border-style: solid;
+}
+.border-color-green {
+  border-color: rgb(52, 153, 43);
+  border-width: 2px;
+  border-style: solid;
+}
+
+.pic {
+  max-width: 800px;
+  max-height: 800px;
+}
+
+:deep(.ivu-footer-toolbar-right) {
+  width: 100%;
+  background-color: rgb(233, 222, 221);
+}
+</style>

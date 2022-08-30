@@ -4,6 +4,7 @@ class QuestionElement {
     title: string;
     question: string[];
     answer: string[];
+    answerType: string;
 }
 
 class Option {

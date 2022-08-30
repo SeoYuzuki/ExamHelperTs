@@ -18,7 +18,11 @@
       </div>
       <br />
       <br />
-      <Checkbox-Group v-model="selectedItems">
+      <!-- 選項 -->
+      <Checkbox-Group
+        v-if="questionElement.answerType == 'choice'"
+        v-model="selectedItems"
+      >
         <template
           v-for="option in questionElement.options"
           :key="option.optTitle"
@@ -32,6 +36,22 @@
           </Row>
         </template>
       </Checkbox-Group>
+
+      <!-- 非選題之答案 -->
+      <template v-if="questionElement.answerType === 'non-choice' && isChecked">
+        <Card>
+          <div v-for="answer in questionElement.answer" :key="answer">
+            <template v-if="answer.startsWith('Picture:')">
+              <img
+                class="pic"
+                :src="`data:image/png;base64,${answer.replace('Picture:', '')}`"
+              />
+            </template>
+            <div v-else>{{ answer }}</div>
+          </div>
+        </Card>
+      </template>
+
       <br />
       <br />
       <br />
@@ -108,6 +128,9 @@ export default class ExamMode extends Vue.with(Props) {
 
   // 目前答案是否正確
   get isCorrect(): boolean {
+    if (this.questionElement.answerType === "non-choice") {
+      return true;
+    }
     return arraysEqual(this.questionElement.answer, this.selectedItems);
   }
 

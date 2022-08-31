@@ -27,6 +27,8 @@
         />
       </GridItem>
     </Grid>
+    Topic:
+    {{ t }}
 
     <SettingMadel
       v-model:isShowSetting="isShowSetting"
@@ -55,6 +57,7 @@ import { Source, Mode } from "../enum/enum";
   },
 })
 export default class MainPage extends Vue {
+  t = new Topic();
   // enum ----------------------------------------
   Mode = Mode;
   Source = Source;

@@ -5,6 +5,7 @@ class QuestionElement {
     question: string[];
     answer: string[];
     answerType: string;
+    options: Option[];
 }
 
 class Option {

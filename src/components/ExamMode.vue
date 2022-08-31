@@ -1,89 +1,98 @@
 <template>
   <div>
-    <div
-      v-if="questionElement"
-      :style="{ 'background-color': colorIn, color: textColor }"
-    >
-      <div>{{ topic.topicName }}</div>
-      <br />
-      <div>{{ questionElement.title }}.</div>
-      <div v-for="question in questionElement.question" :key="question.title">
-        <template v-if="question.startsWith('Picture:')">
-          <img
-            class="pic"
-            :src="`data:image/png;base64,${question.replace('Picture:', '')}`"
-          />
-        </template>
-        <div v-else>{{ question }}</div>
+    <div :style="{ 'background-color': colorIn, color: textColor }">
+      <div>
+        {{ topic.topicName }}
+        <Poptip placement="right" width="400">
+          <Icon type="ios-information-circle-outline" />
+          <template #content>
+            topic: {{ topic.topicName }} <br />
+            topicInfo: {{ topic.topicInfo }}
+          </template>
+        </Poptip>
       </div>
+
       <br />
-      <br />
-      <!-- 選項 -->
-      <Checkbox-Group
-        v-if="questionElement.answerType == 'choice'"
-        v-model="selectedItems"
-      >
-        <template
-          v-for="option in questionElement.options"
-          :key="option.optTitle"
+      <template v-if="questionElement">
+        <div>{{ questionElement.title }}.</div>
+        <div v-for="question in questionElement.question" :key="question.title">
+          <template v-if="question.startsWith('Picture:')">
+            <img
+              class="pic"
+              :src="`data:image/png;base64,${question.replace('Picture:', '')}`"
+            />
+          </template>
+          <div v-else>{{ question }}</div>
+        </div>
+        <br />
+        <br />
+        <!-- 選項 -->
+        <Checkbox-Group
+          v-if="questionElement.answerType == 'choice'"
+          v-model="selectedItems"
         >
-          <Row>
-            <Checkbox :label="option.optTitle" :key="option.optTitle">
-              <span :class="showError(option)">
-                {{ option.optTitle }}. {{ option.optContent }}
-              </span>
-            </Checkbox>
-          </Row>
+          <template
+            v-for="option in questionElement.options"
+            :key="option.optTitle"
+          >
+            <Row>
+              <Checkbox :label="option.optTitle" :key="option.optTitle">
+                <span :class="showError(option)">
+                  {{ option.optTitle }}. {{ option.optContent }}
+                </span>
+              </Checkbox>
+            </Row>
+          </template>
+        </Checkbox-Group>
+
+        <!-- 非選題之答案 -->
+        <template
+          v-if="questionElement.answerType === 'non-choice' && isChecked"
+        >
+          <Card>
+            <div v-for="answer in questionElement.answer" :key="answer">
+              <template v-if="answer.startsWith('Picture:')">
+                <img
+                  class="pic"
+                  :src="`data:image/png;base64,${answer.replace(
+                    'Picture:',
+                    ''
+                  )}`"
+                />
+              </template>
+              <div v-else>{{ answer }}</div>
+            </div>
+          </Card>
         </template>
-      </Checkbox-Group>
-
-      <!-- 非選題之答案 -->
-      <template v-if="questionElement.answerType === 'non-choice' && isChecked">
-        <Card>
-          <div v-for="answer in questionElement.answer" :key="answer">
-            <template v-if="answer.startsWith('Picture:')">
-              <img
-                class="pic"
-                :src="`data:image/png;base64,${answer.replace('Picture:', '')}`"
-              />
-            </template>
-            <div v-else>{{ answer }}</div>
-          </div>
-        </Card>
       </template>
-
       <br />
       <br />
       <br />
-      <!--  -->
-
-      <FooterToolbar>
-        <Row :gutter="16">
-          <Col span="5">
-            <Space>
-              顯示答案
-              <i-Switch v-model="isChecked"> </i-Switch>
-            </Space>
-          </Col>
-          <Col span="6"> </Col>
-          <Col span="2">
-            <Button type="primary" @click="keydownHandler(37)">
-              <Icon type="md-arrow-round-back" />
-            </Button>
-          </Col>
-          <Col span="2">
-            <Button type="primary" @click="keydownHandler(39)">
-              <Icon type="md-arrow-round-forward" />
-            </Button>
-          </Col>
-          <Col span="6">
-            <Button type="primary" @click="$emit('onBackToMain')">
-              離開
-            </Button>
-          </Col>
-        </Row>
-      </FooterToolbar>
     </div>
+    <FooterToolbar>
+      <Row :gutter="16">
+        <Col span="5">
+          <Space>
+            顯示答案
+            <i-Switch v-model="isChecked"> </i-Switch>
+          </Space>
+        </Col>
+        <Col span="6"> </Col>
+        <Col span="2">
+          <Button type="primary" @click="keydownHandler(37)">
+            <Icon type="md-arrow-round-back" />
+          </Button>
+        </Col>
+        <Col span="2">
+          <Button type="primary" @click="keydownHandler(39)">
+            <Icon type="md-arrow-round-forward" />
+          </Button>
+        </Col>
+        <Col span="6">
+          <Button type="primary" @click="$emit('onBackToMain')"> 離開 </Button>
+        </Col>
+      </Row>
+    </FooterToolbar>
   </div>
 </template>
 
@@ -145,14 +154,15 @@ export default class ExamMode extends Vue.with(Props) {
       return "";
     }
   }
-  //
+  onkeydown(e: KeyboardEvent): void {
+    if (e.keyCode == 32 && e.target == document.body) {
+      e.preventDefault();
+    }
+    this.keydownHandler(e.keyCode);
+  }
+  // mounted-------------------------------------
   mounted(): void {
-    window.addEventListener("keydown", (e) => {
-      if (e.keyCode == 32 && e.target == document.body) {
-        e.preventDefault();
-      }
-      this.keydownHandler(e.keyCode);
-    });
+    window.addEventListener("keydown", this.onkeydown);
   }
 
   keydownHandler(keyCode: number): void {
@@ -241,14 +251,15 @@ export default class ExamMode extends Vue.with(Props) {
   get textColor(): string {
     return this.settings.textColor;
   }
+
+  // unmounted --------------------------
+  unmounted(): void {
+    window.removeEventListener("keydown", this.onkeydown);
+  }
 }
 </script>
 
 <style scoped>
-span {
-  font-size: v-bind("fontSize");
-}
-
 .border-color-red {
   border-color: rgb(179, 36, 36);
   border-width: 2px;

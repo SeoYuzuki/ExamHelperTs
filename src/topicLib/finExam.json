@@ -9,7 +9,7 @@
             "question": [
                 "下列何者不是金融市場的主要功能？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -39,7 +39,7 @@
             "question": [
                 "下列何者不是金融市場交易的工具？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -69,7 +69,7 @@
             "question": [
                 "當金融市場管理的品質較佳時，企業發行的成本會______，金融工具的流動性會______。"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -99,7 +99,7 @@
             "question": [
                 "當企業需要資金來進行投資，最好不要用下列何種方式尋求融通？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -129,7 +129,7 @@
             "question": [
                 "下列何者不是近年來國內主管機關管理金融市場的發展方向？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -159,7 +159,7 @@
             "question": [
                 "在金融市場中主管機關訂定法律規範的目的在於："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -189,7 +189,7 @@
             "question": [
                 "目前國內監理銀行、票券、證券及保險等金融機構的主管機關為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -219,7 +219,7 @@
             "question": [
                 "依照國內金融監督管理制度的架構，主管證券相關事業的監理單位為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -249,7 +249,7 @@
             "question": [
                 "依照國內金融監理制度的架構，主掌金融業檢查業務的單位為："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -279,7 +279,7 @@
             "question": [
                 "下列何者非隸屬「金融監督管理委員會」？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -309,7 +309,7 @@
             "question": [
                 "下列何者不屬證券期貨局監理的機構？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -339,7 +339,7 @@
             "question": [
                 "下列何者不是檢查局業務檢查的機構？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -369,7 +369,7 @@
             "question": [
                 "下列何者非政府管理金融市場的措施？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -399,7 +399,7 @@
             "question": [
                 "發行公司可以自下列何種市場募集資金？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -429,7 +429,7 @@
             "question": [
                 "下列何者非次級市場交易？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -459,7 +459,7 @@
             "question": [
                 "股票在下列那個市場進行交易？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -489,7 +489,7 @@
             "question": [
                 "如何分辨國外地下保單？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -519,7 +519,7 @@
             "question": [
                 "下列那個市場主要是買賣已發行流通的證券？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -549,7 +549,7 @@
             "question": [
                 "區分資本市場和貨幣市場的差異主要在於："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -579,7 +579,7 @@
             "question": [
                 "公司債在以下何種金融市場交易？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -609,7 +609,7 @@
             "question": [
                 "資金需求者以發行證券方式來向大眾募集資金者稱為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -639,7 +639,7 @@
             "question": [
                 "下列何種金融市場可以提供企業短期的資金融通？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -669,7 +669,7 @@
             "question": [
                 "資金需求者可以在何種金融市場發行中、長期的證券來募集資金？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -699,7 +699,7 @@
             "question": [
                 "證券自營商主要從事何種業務？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -729,7 +729,7 @@
             "question": [
                 "何種證券商為發行市場主幹？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -759,7 +759,7 @@
             "question": [
                 "下列何種市場最有助於短期資金的流動："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -789,7 +789,7 @@
             "question": [
                 "承銷商在初次公開發行市場所扮演的主要角色為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -819,7 +819,7 @@
             "question": [
                 "證券經紀商所扮演的角色為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -849,7 +849,7 @@
             "question": [
                 "台灣證券交易所按組織類型乃為下列何種市場？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -879,7 +879,7 @@
             "question": [
                 "下列何者非屬專業銀行？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -909,7 +909,7 @@
             "question": [
                 "下列何者非為投信公司之業務？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -939,7 +939,7 @@
             "question": [
                 "下列何者為投顧公司之業務？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -969,7 +969,7 @@
             "question": [
                 "下列對於金融控股公司的描述何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -999,7 +999,7 @@
             "question": [
                 "證券金融公司的業務下列何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -1029,7 +1029,7 @@
             "question": [
                 "對證券投資顧問公司的服務需求，若以台灣的市場狀況來看，下列何者非為可能的原因？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1059,7 +1059,7 @@
             "question": [
                 "目前集中市場、櫃買市場之結算交割作業，以及有價證券的保管，乃委託下列何者機構辦理？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1089,7 +1089,7 @@
             "question": [
                 "下列何者不屬於資本市場？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1119,7 +1119,7 @@
             "question": [
                 "下列何者非屬金融監督管理委員會之職掌？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -1149,7 +1149,7 @@
             "question": [
                 "下列何者非屬次級市場的功能？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1179,7 +1179,7 @@
             "question": [
                 "下列何者非屬於金融體系的一環？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1209,7 +1209,7 @@
             "question": [
                 "目前台灣股市的交易方式以何者為主？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1239,7 +1239,7 @@
             "question": [
                 "下列何者不是貨幣市場的信用工具？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1269,7 +1269,7 @@
             "question": [
                 "下列何者不屬於衍生性金融商品？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -1299,7 +1299,7 @@
             "question": [
                 "關於金融機構於大陸設立分行之審核，為下列那一個機關的職責？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1329,7 +1329,7 @@
             "question": [
                 "下列何者不是金融市場所提供的主要功能？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1359,7 +1359,7 @@
             "question": [
                 "下列何者為金融市場？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1389,7 +1389,7 @@
             "question": [
                 "有關資金融通之描述，下列何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1419,7 +1419,7 @@
             "question": [
                 "有關金融市場的構成，下列何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1449,7 +1449,7 @@
             "question": [
                 "下列何者為金融市場的功能？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1479,7 +1479,7 @@
             "question": [
                 "有關金融市場的種類，下列何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1509,7 +1509,7 @@
             "question": [
                 "有關金融市場的種類，下列何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1539,7 +1539,7 @@
             "question": [
                 "下列何者為金融市場之參與者？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1569,7 +1569,7 @@
             "question": [
                 "金融市場按業務活動期限劃分可分為哪幾種市場？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1599,7 +1599,7 @@
             "question": [
                 "金融市場按地域範圍可分為哪幾種市場？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1629,7 +1629,7 @@
             "question": [
                 "金融市場較常見的一種分類是分為短期資金市場和長期資金市場。短期與長期的劃分通常以多久時間為準？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -1659,7 +1659,7 @@
             "question": [
                 "下列何者屬於短期資金市場？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1689,7 +1689,7 @@
             "question": [
                 "下列何者非屬台灣貨幣市場投資工具？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1719,7 +1719,7 @@
             "question": [
                 "政府對金融業做特殊的監督與管理的理由為："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1749,7 +1749,7 @@
             "question": [
                 "證券買賣雙方或他們的經紀商(Broker)在一個集中的交易場所利用人工或電腦撮合進行交易所形成的市場，謂之：  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1779,7 +1779,7 @@
             "question": [
                 "由座落於不同地點的交易商(Dealer)對於其所交易的證券向投資人報價，只要投資人願意接受交易商的報價，即可完成交易而形成的市場，謂之：   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1809,7 +1809,7 @@
             "question": [
                 "資金剩餘者直接購買資金不足者所發行之有價證券(如:股票、政府公債、公司債、商業本票等)。謂之：  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -1839,7 +1839,7 @@
             "question": [
                 "資金剩餘者將剩餘之資金存入金融機構，金融機構再間接將此資金貸放給資金不足者或購買資金不足者所發行之有價證券。謂之：   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1869,7 +1869,7 @@
             "question": [
                 "金融市場的功能，包括下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1899,7 +1899,7 @@
             "question": [
                 "下列何者為我國證券交易法所稱有價證券？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1929,7 +1929,7 @@
             "question": [
                 "期貨交易，指依國內外期貨交易所或其他期貨市場之規則或實務，從事衍生自商品、貨幣、有價證券、利率、指數或其他利益之下列何種契約之交易？   "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -1959,7 +1959,7 @@
             "question": [
                 "下列何者非為健全的金融市場所需之條件？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -1989,7 +1989,7 @@
             "question": [
                 "有效率的金融市場所需條件為？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2019,7 +2019,7 @@
             "question": [
                 "下列何者非為金融中介的功能？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2049,7 +2049,7 @@
             "question": [
                 "金融中介機構（financialintermediation）依其本身的信用條件，發行債務憑證向資金供給者取得資金，再將資金貸放給資金需求者，完成資金移轉的融通方式，謂之：   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -2079,7 +2079,7 @@
             "question": [
                 "資金需求者藉由原始證券（例如股票、債券或票券）的發行（或稱承銷），並透過市場交易（經紀或自營），撮合資金供需雙方完成資金交易的融通方式，謂之：   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -2109,7 +2109,7 @@
             "question": [
                 "下列何者屬金融市場？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2139,7 +2139,7 @@
             "question": [
                 "下列何者非屬金融監督管理委員會之主管業務？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2169,7 +2169,7 @@
             "question": [
                 "有關發行市場「私募」制度，何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2199,7 +2199,7 @@
             "question": [
                 "股票的本益比係指："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -2229,7 +2229,7 @@
             "question": [
                 "下列何者為散戶最常使用之申購股票方式："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2259,7 +2259,7 @@
             "question": [
                 "民國100年12月30日開始施行的金融消費者保護法，其主管機關為："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2289,7 +2289,7 @@
             "question": [
                 "境外基金需經核准方得在我國境內募集及銷售，下列何者不是合法的銷售機構？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2319,7 +2319,7 @@
             "question": [
                 "下列何種類型的基金適合短期資金停泊的投資人？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -2349,7 +2349,7 @@
             "question": [
                 "外國企業來臺灣以存託憑證方式籌措資金，稱之發行："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -2379,7 +2379,7 @@
             "question": [
                 "下列何者是店頭衍生性金融商品之特性？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2409,7 +2409,7 @@
             "question": [
                 "自101年4月2日起銀行及證券商從事店頭衍生性金融商品交易須向下列何者建置之店頭衍生性金融商品交易資訊儲存庫申報相關資訊？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -2439,7 +2439,7 @@
             "question": [
                 "期貨交易人不可透過下列何者從事期貨交易？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2469,7 +2469,7 @@
             "question": [
                 "期貨商接受期貨交易人委託從事期貨交易，下列敘述何者不正確？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2499,7 +2499,7 @@
             "question": [
                 "期貨商客戶保證金專戶之管理，下列敘述何者不正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -2529,7 +2529,7 @@
             "question": [
                 "證券投資人及期貨交易人對紛爭之解決機制："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2559,7 +2559,7 @@
             "question": [
                 "下列何者並非屬強化公司治理的措施？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2589,7 +2589,7 @@
             "question": [
                 "證券商研究員或分析人員接受媒體採訪時："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2619,7 +2619,7 @@
             "question": [
                 "上市（櫃）公司依規定，財務報表及重大訊息須在何處公告？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -2649,7 +2649,7 @@
             "question": [
                 "上市（櫃）公司之年度財務報告，自101年會計年度開始，最遲應於年度終了後幾個月內公告並申報？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -2679,7 +2679,7 @@
             "question": [
                 "上市（櫃）公司之股東常會應於每會計年度終了後幾個月內召開？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2709,7 +2709,7 @@
             "question": [
                 "以下有關證券投資信託基金之描述，何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -2739,7 +2739,7 @@
             "question": [
                 "甲上市公司董事長掏空公司資產，持有甲公司股票之股東所受損害可採取之措施，以下何者正確？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -2769,7 +2769,7 @@
             "question": [
                 "有關對期貨商收取客戶保證金之管理，以下何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2799,7 +2799,7 @@
             "question": [
                 "有關國內貨幣市場基金之描述，何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2829,7 +2829,7 @@
             "question": [
                 "下列何者屬於金融機構防制洗錢措施之核心原則？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2859,7 +2859,7 @@
             "question": [
                 "洗錢防制法規定金融機構對於達一定金額以上之通貨交易，應確認客戶身分及留存交易紀錄憑證，並應向指定之機構申報。所稱之一定金額係指新台幣多少之單筆現金或換鈔交易？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -2889,7 +2889,7 @@
             "question": [
                 "下列何者不屬於金融機構防制洗錢措施，訂定內部控制、稽核及法令遵行之事項？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2919,7 +2919,7 @@
             "question": [
                 "下列何者屬於金融機構防制洗錢措施所稱之金融機構："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2949,7 +2949,7 @@
             "question": [
                 "下列何者是選擇存款金融機構的方式？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -2979,7 +2979,7 @@
             "question": [
                 "現行每一存款人在同一家金融機構的最高保額為存款本金是多少？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -3009,7 +3009,7 @@
             "question": [
                 "學生申請信用卡有什麼限制？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3039,7 +3039,7 @@
             "question": [
                 "依民法規定，有關保證之敘述，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3069,7 +3069,7 @@
             "question": [
                 "提供下列何者作為對銀行授信之擔保，不屬於銀行法所稱之擔保授信？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -3099,7 +3099,7 @@
             "question": [
                 "良好的內部控制可以利用環境相扣的內控措施減少弊端的發生，降低損失，下列何者不屬於內控措施？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3129,7 +3129,7 @@
             "question": [
                 "銀行理財專員介紹金融商品時，下列何者為錯誤之行為？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -3159,7 +3159,7 @@
             "question": [
                 "下列何者機構可以辦理特定金錢信託業務？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3189,7 +3189,7 @@
             "question": [
                 "下列何者為錯誤之保險商品購買行為？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3219,7 +3219,7 @@
             "question": [
                 "以下何者不是投保時應該注意的事項？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -3249,7 +3249,7 @@
             "question": [
                 "對寄達之壽險保單看後，多久之內可以撤回，請求退還保費？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3279,7 +3279,7 @@
             "question": [
                 "下列何者不是投資型保單之特性？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3309,7 +3309,7 @@
             "question": [
                 "下列何者不是產物保險？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3339,7 +3339,7 @@
             "question": [
                 "下列何者為不正確的理財行為？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3369,7 +3369,7 @@
             "question": [
                 "有關債券的種類，下列敘述何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3399,7 +3399,7 @@
             "question": [
                 "下列何者不是普通股之特性？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3429,7 +3429,7 @@
             "question": [
                 "下列敘述何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3459,7 +3459,7 @@
             "question": [
                 "有關客戶委託保管有價證券，下列敘述何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3489,7 +3489,7 @@
             "question": [
                 "下列何者非屬國人投資共同基金的優點？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3519,7 +3519,7 @@
             "question": [
                 "以下何者係屬應對金融機構建立並為維持適當有效之內部控制制度負最終責任之人："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3549,7 +3549,7 @@
             "question": [
                 "銀行辦理自用住宅及消費性貸款，如已徵提足額擔保，下列何者敘述是錯誤的？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3579,7 +3579,7 @@
             "question": [
                 "下列何者係指金融資產之變現能力或指無法以合理價格軋平部位所產生之風險？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3609,7 +3609,7 @@
             "question": [
                 "下列何者是金融從業人員正確之倫理觀念？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3639,7 +3639,7 @@
             "question": [
                 "下列何者不是結構型商品的主要風險？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3669,7 +3669,7 @@
             "question": [
                 "結構型商品因連結標的價格變動，隨市場變化而有較高的風險報酬，下列何者是不正當的銷售行為？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3699,7 +3699,7 @@
             "question": [
                 "銀行、保險及證券等金融機構間跨業行銷他業金融商品，下列何者為不正確之敘述？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3729,7 +3729,7 @@
             "question": [
                 "金控公司子公司間辦理跨業共同行銷，下列敘述何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3759,7 +3759,7 @@
             "question": [
                 "以下何者是屬初級市場活動？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3789,7 +3789,7 @@
             "question": [
                 "初級(Primary)市場又稱為？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3819,7 +3819,7 @@
             "question": [
                 "台灣的興櫃市場是何種股票可以合法流通的市場？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -3849,7 +3849,7 @@
             "question": [
                 "利率之1個基本點(basispoint)等於？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3879,7 +3879,7 @@
             "question": [
                 "利率之一碼為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3909,7 +3909,7 @@
             "question": [
                 "臺灣證券交易所上市股票買賣，多少股以下的交易是屬零股買賣？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3939,7 +3939,7 @@
             "question": [
                 "臺灣企業赴美國以存託憑證方式籌措資金，稱之發行："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -3969,7 +3969,7 @@
             "question": [
                 "定期公開資訊中，資訊內容最具即時、攸關性者為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -3999,7 +3999,7 @@
             "question": [
                 "不定期公開資訊中，資訊內容最具即時、攸關性者為："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4029,7 +4029,7 @@
             "question": [
                 "下列何者金融商品不是國內上市公司到海外籌措資金的方式？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4059,7 +4059,7 @@
             "question": [
                 "老年投資人最好投資下列那一種基金？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4089,7 +4089,7 @@
             "question": [
                 "老年人較適合投資下列那一種資產？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4119,7 +4119,7 @@
             "question": [
                 "年輕人較適合投資下列那一種資產？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4149,7 +4149,7 @@
             "question": [
                 "下列何者不是市場風險(Marketrisk)？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4179,7 +4179,7 @@
             "question": [
                 "就投資管理而言，認為市場隨時存在價格失衡之證券，而利用研究分析選出價格低估之證券，以求績效擊敗大盤之管理方式稱為？   "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4209,7 +4209,7 @@
             "question": [
                 "通常而言，零息債券（Zero-CouponBond）的票面價格較市價為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4239,7 +4239,7 @@
             "question": [
                 "公債自營商在公債發行消息公布後，於正式標售之前，以約定利率和投資人進行買賣，而交割日訂在發行日之後，此種市場為？   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4269,7 +4269,7 @@
             "question": [
                 "登錄公債係指："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4299,7 +4299,7 @@
             "question": [
                 "公債於何處流通買賣："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4329,7 +4329,7 @@
             "question": [
                 "公司之債券評等下降時，則？A.表示其違約風險下降；B.表示其違約風險上升；C.債券價格會下降；D.債券價格會上升  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4359,7 +4359,7 @@
             "question": [
                 "債券價格隨著到期日的接近，會愈來愈趨近於："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -4389,7 +4389,7 @@
             "question": [
                 "A國的發行者在B國發行以B國貨幣計價的債券稱為："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -4419,7 +4419,7 @@
             "question": [
                 "下列何者對「垃圾債券」的敘述為真？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4449,7 +4449,7 @@
             "question": [
                 "乙債券4年後到期，其面額為10萬元，每年付息一次5,000元，若該債券以105,000元賣出，則其到期殖利率：  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4479,7 +4479,7 @@
             "question": [
                 "下列何者為債券投資所面臨的風險？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -4509,7 +4509,7 @@
             "question": [
                 "債券市價與市場利率常作何種變動關係？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4539,7 +4539,7 @@
             "question": [
                 "下列何種金融工具的利率風險最高？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4569,7 +4569,7 @@
             "question": [
                 "證券商在國外證券市場買賣「小龍債券」之結算交割是？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4599,7 +4599,7 @@
             "question": [
                 "在標準普爾(Standard&Poors)的評等中，那一評等等級以上的債券為投資等級？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4629,7 +4629,7 @@
             "question": [
                 "公司債的持有人為公司的："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4659,7 +4659,7 @@
             "question": [
                 "歐洲債券(EuroBonds)與外國債券(ForeignBonds)之比較何者為真？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4689,7 +4689,7 @@
             "question": [
                 "目前在我國賣出公司債時須課徵多少證券交易稅？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -4719,7 +4719,7 @@
             "question": [
                 "下列何者不屬於債券？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -4749,7 +4749,7 @@
             "question": [
                 "可贖回公司債之贖回權利是操之於："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4779,7 +4779,7 @@
             "question": [
                 "零息債券(Zero-couponBonds)之敘述何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -4809,7 +4809,7 @@
             "question": [
                 "在其他條件相同下，到期期間愈長的債券，其價格對利率的敏感性："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4839,7 +4839,7 @@
             "question": [
                 "在其他條件不變下，可轉換公司債的凍結期間愈長，則其價值會："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -4869,7 +4869,7 @@
             "question": [
                 "在其他條件相同下，當殖利率變動1%時，高票面利率債券價格的變動會比低票面利率債券價格的變動：  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4899,7 +4899,7 @@
             "question": [
                 "國內證券市場上認購權證的發行人為？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -4929,7 +4929,7 @@
             "question": [
                 "申請股票上櫃必須有幾家以上證券商書面推薦？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4959,7 +4959,7 @@
             "question": [
                 "A股除權前一營業日收盤價60元，無償配股每股2元，則除權參考價為："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -4989,7 +4989,7 @@
             "question": [
                 "一般發行公司申請股票上市，申請時須已依公司法設立登記屆滿："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5019,7 +5019,7 @@
             "question": [
                 "何種承銷方式所決定出來的價格較具市場性？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -5049,7 +5049,7 @@
             "question": [
                 "國內股票漲跌幅的限制係指："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5079,7 +5079,7 @@
             "question": [
                 "證券商應多久計算一信用帳戶之整戶及各筆融資融券擔保維持率？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -5109,7 +5109,7 @@
             "question": [
                 "下列何種承銷方式較具公平性及股權分散？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5139,7 +5139,7 @@
             "question": [
                 "國內股票市場的證券交易成本包括："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5169,7 +5169,7 @@
             "question": [
                 "國內股票市場證券交易手續費收取的對象為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5199,7 +5199,7 @@
             "question": [
                 "國內證券市場交易所謂鉅額交易係指買或賣同一種有價證券，其交易數量在多少交易單位以上？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5229,7 +5229,7 @@
             "question": [
                 "國內股票市場的競價交易制度為以下哪一種？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5259,7 +5259,7 @@
             "question": [
                 "盤後定價交易係指每日收盤後，有價證券依照上午集中交易市場何種價格進行定價交易的方式？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5289,7 +5289,7 @@
             "question": [
                 "關於當日沖銷，下列敘述何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -5319,7 +5319,7 @@
             "question": [
                 "融券的成本不包括下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5349,7 +5349,7 @@
             "question": [
                 "下列因素何者不直接影響公司債券價格的波動？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5379,7 +5379,7 @@
             "question": [
                 "上市股票的交易，下列何者係屬場外交易？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5409,7 +5409,7 @@
             "question": [
                 "下列何者非期貨合約（futurescontract）之特性？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5439,7 +5439,7 @@
             "question": [
                 "下列何者不是期交所在調整期貨合約保證金時之考量因素？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5469,7 +5469,7 @@
             "question": [
                 "下列何者不是期貨契約標準化要求一致之因素？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5499,7 +5499,7 @@
             "question": [
                 "期貨市場中所謂「正向市場」乃指所有期貨價格與現貨價格比較時，期貨價值會："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -5529,7 +5529,7 @@
             "question": [
                 "期貨經紀商不得從事何種行為？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5559,7 +5559,7 @@
             "question": [
                 "有些業務員因想獲得不當之較多佣金，於是鼓勵客戶多作交易而未顧及客戶利益，此種情形稱之為：  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5589,7 +5589,7 @@
             "question": [
                 "最近油價飆漲，某甲若完全根據預期而直接放空利率期貨且賺了不少，請問他屬於："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5619,7 +5619,7 @@
             "question": [
                 "主管機關開放的摩根臺指期貨（MSCITaiwanindex）在那一個交易所交易？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5649,7 +5649,7 @@
             "question": [
                 "下列對「基差」描述何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5679,7 +5679,7 @@
             "question": [
                 "期貨合約的價格於到期日收盤後，期貨價格必須等於現貨價格，其原因或理由是："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -5709,7 +5709,7 @@
             "question": [
                 "交易人開戶時，下列何者非屬必要？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5739,7 +5739,7 @@
             "question": [
                 "下列敘述何者符合風險告知書之內容精神？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5769,7 +5769,7 @@
             "question": [
                 "中華民國期貨市場主管機關為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -5799,7 +5799,7 @@
             "question": [
                 "下列各種委託單，除了何者之外，皆需標明價格？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5829,7 +5829,7 @@
             "question": [
                 "停損單在價位的執行上是："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5859,7 +5859,7 @@
             "question": [
                 "客戶的保證金淨值，因市場行情往不利的方向發展，當淨值跌破某一水位，期貨商就會向客戶發出追繳保證金的通知，此一特定水位稱為：   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5889,7 +5889,7 @@
             "question": [
                 "客戶保證金不足時，需補足至："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -5919,7 +5919,7 @@
             "question": [
                 "目前國內各種指數期貨契約交易保證金可以何種形式繳存？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -5949,7 +5949,7 @@
             "question": [
                 "客戶若要將其存入保證金提出，則其出金數額必須是："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -5979,7 +5979,7 @@
             "question": [
                 "我國期貨交易之保證金制度採用："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6009,7 +6009,7 @@
             "question": [
                 "一般而言，當期貨價格與未平倉數量同步上漲時，代表："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6039,7 +6039,7 @@
             "question": [
                 "“買進黃豆期貨，同時賣出黃豆粉、黃豆油期貨”之委託稱為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -6069,7 +6069,7 @@
             "question": [
                 "臺灣期貨交易所30天期利率期貨之交易標的為國內之何種票券工具？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6099,7 +6099,7 @@
             "question": [
                 "通常避險策略會一直維持，而且儘可能愈接近期貨契約到期日時，才結束避險策略，其中最主要的考量為：  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -6129,7 +6129,7 @@
             "question": [
                 "利用合成資產的觀念，當股票型基金經理人看壞股票市場時，應採行何種方式進行資產重置，而使現行資產轉移成合成債券以規避股市風險？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6159,7 +6159,7 @@
             "question": [
                 "採行完全避險策略時，避險者仍有可能遭遇追繳保證金之情況，其主要原因為："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6189,7 +6189,7 @@
             "question": [
                 "輕油裂解廠通常會如何避險？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -6219,7 +6219,7 @@
             "question": [
                 "股價指數期貨無法規避："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -6249,7 +6249,7 @@
             "question": [
                 "以下何者不是期貨投機活動的正常功能？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -6279,7 +6279,7 @@
             "question": [
                 "認購權證之「發行者」相當於下列選擇權策略中那一種角色？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -6309,7 +6309,7 @@
             "question": [
                 "以下那一種交易者不必繳交保證金？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6339,7 +6339,7 @@
             "question": [
                 "S&P500現貨指數675點，則："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6369,7 +6369,7 @@
             "question": [
                 "當賣出期貨賣權(put)且被執行時，其結果如何？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6399,7 +6399,7 @@
             "question": [
                 "價內（in-the-money）期貨賣權（put）越深價內，其時間價值（timevalue）會："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6429,7 +6429,7 @@
             "question": [
                 "結算所在期貨交易中所扮演的角色不包括下列哪一項？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -6459,7 +6459,7 @@
             "question": [
                 "股價指數期貨之交割方式為"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6489,7 +6489,7 @@
             "question": [
                 "依期交法規定，期貨交易人於何時繳交交易保證金？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6519,7 +6519,7 @@
             "question": [
                 "履約價格7,200之加權股價指數賣權在最後結算價7,150點時，每口會有多少價值？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6549,7 +6549,7 @@
             "question": [
                 "目前台灣市場上的封閉型基金比開放型基金數量(種類)："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6579,7 +6579,7 @@
             "question": [
                 "基金經理人掌握增減基金持股比率的時機，這就是一種："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6609,7 +6609,7 @@
             "question": [
                 "下列敘述何者正確？A.就投資組合管理而言，積極式的操作包括尋找股價偏低的股票來投資；B.就投資組合管理而言，消極式的操作包括購買指數型基金   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6639,7 +6639,7 @@
             "question": [
                 "金控公司員工退休基金如果重視投資風險之分散，其退休基金股票組合中對於金融類股的權數最好應該要：  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6669,7 +6669,7 @@
             "question": [
                 "國內已有很多已上市公司鼓勵員工以購買自家股票之方式儲存退休金，其並非基於下列那一項主要理由？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -6699,7 +6699,7 @@
             "question": [
                 "收入穩定的年輕投資人較適合投資下列那一種基金？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6729,7 +6729,7 @@
             "question": [
                 "下列那一種股票型基金屬於較積極型投資人所投資的？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6759,7 +6759,7 @@
             "question": [
                 "下列那一種股票型基金較屬於保守型投資人所投資的？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6789,7 +6789,7 @@
             "question": [
                 "積極的投資人較可能投資下列那一種股票？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -6819,7 +6819,7 @@
             "question": [
                 "下列敘述何者正確？A.投信投顧公司代客操作應顧及職業道德；B.投信投顧公司代客操作應建立防火牆  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6849,7 +6849,7 @@
             "question": [
                 "下列敘述何者正確？A.投信投顧公司代客操作應顧及客戶的投資目標與限制條件；B.投信投顧公司代客操作應顧及客戶的財富背景與承擔風險的限度   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6879,7 +6879,7 @@
             "question": [
                 "下列敘述何者不正確？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -6909,7 +6909,7 @@
             "question": [
                 "下列敘述何者較正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6939,7 +6939,7 @@
             "question": [
                 "下列敘述何者正確？A.只要簽定充份授權合約，投顧代客操作就可以不管投資人的年齡與財務狀況，積極操作。B.如果客戶是退休人員，投顧代客操作就應該注意投資安全性。  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -6969,7 +6969,7 @@
             "question": [
                 "下列敘述何者正確？A.投信基金經理人不應該一方面替公家退撫基金操盤，同時私下替個人大戶代客操作。B.投顧公司應該定期與委託操作之客戶保持聯繫，告知績效近況與對未來證券市場之看法。   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -6999,7 +6999,7 @@
             "question": [
                 "如果目前某檔股票的真實價值遠高於其市場價值，投資人應該"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7029,7 +7029,7 @@
             "question": [
                 "下列敘述何者正確，何者錯誤？a.股市投資屬於高風險，所以一定能得到高報酬b.想要獲得高報酬，可以投資股市，因為股市風險高  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7059,7 +7059,7 @@
             "question": [
                 "投資BBB股票，成本每股是20元，賣出價格是22元，投資期間收到現金股息3元，如果不考慮交易成本，則投資報酬率是  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7089,7 +7089,7 @@
             "question": [
                 "根據投信投顧相關法規，下列敘述何者正確？A.合法的投信投顧業者可以私募基金；B.私人也可以私募基金來投資   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7119,7 +7119,7 @@
             "question": [
                 "投資人如何降低其投資組合之系統風險？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7149,7 +7149,7 @@
             "question": [
                 "下列那一敘述何者正確：A.假設其他條件一樣的話，股票之系統風險越高，其股票市場價值越高；B.假設其他條件一樣的話，股票之風險貼水越低，其股票市場價值越高   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7179,7 +7179,7 @@
             "question": [
                 "開放型共同基金(Mutualfunds)是："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -7209,7 +7209,7 @@
             "question": [
                 "某基金的市場波動度是9.9%，而同一時間市場波動度是9%，則該基金的β值是？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7239,7 +7239,7 @@
             "question": [
                 "下列敘述何者較正確？A.針對全國基金績效評比時，不管基金經理人管的是何種基金，只要報酬率最高，基金經理人績效就是最好；B.針對全國基金績效評比時，不管基金經理人管的是何種基金，只要調整風險後的報酬率最高，基金經理人績效就是最好"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7269,7 +7269,7 @@
             "question": [
                 "下列敘述何者較正確？A.專門投資高科技產業股票的基金，其最適合用來比較績效的標竿(BenchmArk)是股票市場指數；B.投資人如果自己無專業投資知識，只好精挑細選基金來投資，這也是一種積極式的投資策略   "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7299,7 +7299,7 @@
             "question": [
                 "股票型基金經理人作挑選證券決策時，較會考慮："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -7329,7 +7329,7 @@
             "question": [
                 "投資人在挑選基金時比較不會受到下列哪項因素之影響？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -7359,7 +7359,7 @@
             "question": [
                 "如果軍公教人員退撫基金採消極式操作之策略，可將基金？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7389,7 +7389,7 @@
             "question": [
                 "如果軍公教人員退撫基金採積極式操作之策略，可將基金A.部份委託國內專業基金經理人管理；B.部份委託國外專業基金經理人管理  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7419,7 +7419,7 @@
             "question": [
                 "下列敘述，何者為真：A.封閉型基金有時候會產生折價之現象；B.開放型基金則是以淨值贖回，所以無折價之現象  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7449,7 +7449,7 @@
             "question": [
                 "下列敘述，何者為真：A.封閉型基金是在集中市場交易；B.開放型基金（ETF除外）也可以在集中市場交易   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7479,7 +7479,7 @@
             "question": [
                 "採定期定額投資共同基金時，下列敘述何者正確？I.當股價愈高時，可購得之基金單位數愈多；II.當股價愈高時，可購得之基金單位數愈少；III.當股價下跌時，可購得之基金單位數愈多；IV.當股價下跌時，可購得之基金單位數愈少   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -7509,7 +7509,7 @@
             "question": [
                 "定期定額投資開放式基金"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -7539,7 +7539,7 @@
             "question": [
                 "下列何者不是封閉型基金的特性？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -7569,7 +7569,7 @@
             "question": [
                 "下列何者是開放型基金的特性？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7599,7 +7599,7 @@
             "question": [
                 "下列何者不是投資共同基金的好處："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7629,7 +7629,7 @@
             "question": [
                 "開放型基金可以下列那種方式贖回？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7659,7 +7659,7 @@
             "question": [
                 "以下何者是一般對沖基金操作手法或目的："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -7689,7 +7689,7 @@
             "question": [
                 "以下何者不是共同基金操作手法或目的："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -7719,7 +7719,7 @@
             "question": [
                 "以下何者是一般對沖基金操作手法？A：套利，B：積極買賣衍生性商品"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7749,7 +7749,7 @@
             "question": [
                 "下列何者係獨占發行通貨，執行貨幣政策之機構？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7779,7 +7779,7 @@
             "question": [
                 "下列何者非屬專業銀行？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7809,7 +7809,7 @@
             "question": [
                 "下列何者非屬信託投資公司經營之業務項目？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -7839,7 +7839,7 @@
             "question": [
                 "下列何者非屬中央銀行之業務範疇？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7869,7 +7869,7 @@
             "question": [
                 "有關我國中央銀行之功能，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -7899,7 +7899,7 @@
             "question": [
                 "若其他條件不變，下列何者會使本國貨幣供給量增加？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -7929,7 +7929,7 @@
             "question": [
                 "銀行法中所稱資本嚴重不足，係指自有資本與風險性資產之比率低於多少百分比？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -7959,7 +7959,7 @@
             "question": [
                 "銀行對於隨時可能發生的資金需求，因其變現能力與準備部位不足所產生的風險，稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -7989,7 +7989,7 @@
             "question": [
                 "當借款人或交易對手違約，致無法履行原先對銀行承諾的債務時，銀行將承受下列何種風險？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8019,7 +8019,7 @@
             "question": [
                 "下列何項比率愈低，表示銀行資產品質愈佳？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8049,7 +8049,7 @@
             "question": [
                 "假設其他條件不變，下列何者可使存款貨幣的創造能力提高而增加貨幣供給量？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8079,7 +8079,7 @@
             "question": [
                 "為穩健經營，有關商業銀行資金運用之原則，下列何者有誤？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8109,7 +8109,7 @@
             "question": [
                 "銀行內部控管制度如欠完備，造成人為疏失、舞弊或資訊系統操作不良，將使銀行承受何種風險所致損失？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8139,7 +8139,7 @@
             "question": [
                 "銀行將利率敏感性缺口控制在一適當水準，係用來管理下列何項風險？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8169,7 +8169,7 @@
             "question": [
                 "銀行依約定，憑存款人簽發支票或利用自動化設備委託支付，不計利息之存款，稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8199,7 +8199,7 @@
             "question": [
                 "存款有一定時期之限制，存款人憑存單或依約定方式提取，並得以之質借之存款，稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8229,7 +8229,7 @@
             "question": [
                 "銀行兌付可轉讓定期存單、商業本票、國庫券之利息時，應按給付額多少百分比扣繳利息所得稅？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -8259,7 +8259,7 @@
             "question": [
                 "依「洗錢防制法」之規定，金融機構對疑似洗錢之交易，應向下列何者申報？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8289,7 +8289,7 @@
             "question": [
                 "提供下列何者予銀行辦理貸款者，不屬於擔保授信？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8319,7 +8319,7 @@
             "question": [
                 "可轉讓定期存單以新台幣多少元為一單位，並按其倍數發行？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8349,7 +8349,7 @@
             "question": [
                 "借款人提供房地產為擔保設定抵押權予銀行，其房屋應投保適當之保險，並以下列何者為受益人？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8379,7 +8379,7 @@
             "question": [
                 "有關銀行評估授信申請案件之主要考慮因素，下列何者有誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8409,7 +8409,7 @@
             "question": [
                 "正常情況下，下列何種消費者貸款利率最低？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8439,7 +8439,7 @@
             "question": [
                 "信用卡持卡人在繳款截止日前，繳足最低應繳金額，即可維持其良好信用紀錄，其餘由發卡銀行依未繳金額按月收取利息，此授信方式稱為下列何者？   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8469,7 +8469,7 @@
             "question": [
                 "接受特約商店持簽帳單請款者稱為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8499,7 +8499,7 @@
             "question": [
                 "與卡片結合，提供消費者隨時透過自動提款機支借現金，以利救急使用之無擔保消費性貸款稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -8529,7 +8529,7 @@
             "question": [
                 "有關銀行發行信用卡之風險防範措施，下列敘述何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8559,7 +8559,7 @@
             "question": [
                 "經營外匯相關業務者，為處理國際間收付與國際清算之需要，進行不同貨幣間的相互交換之市場，稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8589,7 +8589,7 @@
             "question": [
                 "本國外匯市場係由不同型態的外匯交易參與者所組成，下列何者非屬其組織成員？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8619,7 +8619,7 @@
             "question": [
                 "有關國際外匯市場之主要功能，下列敘述何者有誤？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8649,7 +8649,7 @@
             "question": [
                 "外匯交易雙方在一特定時點簽訂契約，決定匯率，並於交易後第二個營業日完成契約金額的交割，稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -8679,7 +8679,7 @@
             "question": [
                 "交易雙方在某特定時點決定匯率，並同意在未來某一時日交割的外匯交易市場，稱為下列何者？ "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8709,7 +8709,7 @@
             "question": [
                 "兩國之間通貨交換的比率，稱為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8739,7 +8739,7 @@
             "question": [
                 "衡量一國通貨的對外價值時，如考慮到兩國間物價相對變動而加以調整，所得到之匯率稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8769,7 +8769,7 @@
             "question": [
                 "當任何兩種通貨無直接兌換比率，必須透過第三種通貨間接計算而得的兌換率，稱為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8799,7 +8799,7 @@
             "question": [
                 "遠期匯率與即期匯率的差額，稱為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8829,7 +8829,7 @@
             "question": [
                 "中央銀行為緩和本國通貨匯價的急遽升貶，可利用下列何種方式調節外匯供需，使達成適當匯率水準？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8859,7 +8859,7 @@
             "question": [
                 "外匯市場上，報價銀行EUR/USD之報價為1.1713/17，表示詢價者買入一歐元之價格為何？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -8889,7 +8889,7 @@
             "question": [
                 "外資匯入美元，投資台灣股市，唯恐將來匯出時新台幣貶值，可如何規避匯率風險？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -8919,7 +8919,7 @@
             "question": [
                 "依中央銀行規定，下列何者非屬銀行應提存準備金之存款範圍？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -8949,7 +8949,7 @@
             "question": [
                 "下列何者非屬主管機關對於金融機構流動性風險之規範？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -8979,7 +8979,7 @@
             "question": [
                 "銀行承辦授信業務之基本原則，下列何者非屬之？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9009,7 +9009,7 @@
             "question": [
                 "在其他條件不變下，下列何者會使本國貨幣貶值？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9039,7 +9039,7 @@
             "question": [
                 "依信託法之規定，信託依設立方式之不同分為三種，下列何者非屬之？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9069,7 +9069,7 @@
             "question": [
                 "委託人將財產權移轉予受託人，使依委託人意旨，為受益人利益管理或處分財產之法律關係為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9099,7 +9099,7 @@
             "question": [
                 "信託關係之委託人，須將其信託財產權主體變更為下列何者之名義？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9129,7 +9129,7 @@
             "question": [
                 "委託人將其船舶信託移轉予受託人，使依委託人意旨管理或處分，稱為下列何種信託？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9159,7 +9159,7 @@
             "question": [
                 "委託人將其土地信託移轉予受託人，使依委託人意旨管理或處分，稱之為下列何種信託？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9189,7 +9189,7 @@
             "question": [
                 "「以給付一定數額之金錢為標的」之債權信託，稱之為下列何種信託？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9219,7 +9219,7 @@
             "question": [
                 "委託人將股票信託移轉予受託人管理，稱為下列何種信託？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9249,7 +9249,7 @@
             "question": [
                 "下列何者不得作為信託財產？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9279,7 +9279,7 @@
             "question": [
                 "下列何者得擔任信託財產之受託人？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9309,7 +9309,7 @@
             "question": [
                 "有關受託人對受益人之責任，下列敘述何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9339,7 +9339,7 @@
             "question": [
                 "受託人處理信託事務，下列敘述何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9369,7 +9369,7 @@
             "question": [
                 "下列何種制度係以自己為財產名義權利人，為他人利益管理財產？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9399,7 +9399,7 @@
             "question": [
                 "有關委任與信託之敘述，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9429,7 +9429,7 @@
             "question": [
                 "委託人以其享有之租賃權為信託標的，將之移轉與受託人管理使用，稱之為下列何種信託？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9459,7 +9459,7 @@
             "question": [
                 "有關信託財產之敘述，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9489,7 +9489,7 @@
             "question": [
                 "信託關係消滅時，除信託行為另有訂定外，有關信託財產之歸屬，下列何者為第一順位？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9519,7 +9519,7 @@
             "question": [
                 "有價證券中之股票及公司債券，除須依目的事業主管機關規定，於證券上載明其為信託財產外，尚須通知下列何者，始得對抗該公司？   "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9549,7 +9549,7 @@
             "question": [
                 "依信託法規定，公益信託之監督機關為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9579,7 +9579,7 @@
             "question": [
                 "下列何者不屬於信託業法規定信託業得經營之信託業務？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9609,7 +9609,7 @@
             "question": [
                 "主管機關基於風險考量，依信託業法規定，信託業辦理委託人不指定營運範圍或方法之金錢信託，其營運範圍下列何者非屬之？   "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9639,7 +9639,7 @@
             "question": [
                 "依信託業法規定，信託業得經營之業務項目，下列何者非屬之？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9669,7 +9669,7 @@
             "question": [
                 "依信託業法規定，營業信託契約之訂定，應以何種方式為之？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9699,7 +9699,7 @@
             "question": [
                 "下列哪一種契約信託，可以口頭為之或書面為之？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9729,7 +9729,7 @@
             "question": [
                 "特殊目的公司應由金融機構組織設立，其公司型態為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9759,7 +9759,7 @@
             "question": [
                 "下列何者非屬金融資產證券化條例所指之資產？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -9789,7 +9789,7 @@
             "question": [
                 "有關金融資產證券化之特性，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9819,7 +9819,7 @@
             "question": [
                 "有關金融資產證券化之創始機構將金融資產移轉予特殊目的機構之會計項目，下列何者正確？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -9849,7 +9849,7 @@
             "question": [
                 "依金融資產證券化條例之規定，受益人會議係由下列何者召集之？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9879,7 +9879,7 @@
             "question": [
                 "依不動產證券化條例規定，所稱不動產管理機構，下列何者非屬之？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9909,7 +9909,7 @@
             "question": [
                 "依信託法規定，信託行為有害於委託人之債權人權利者，債權人應如何主張權利？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -9939,7 +9939,7 @@
             "question": [
                 "依信託法規定，有關信託關係消滅原因，下列何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9969,7 +9969,7 @@
             "question": [
                 "依信託法及信託業法相關規定，信託業應負之義務，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -9999,7 +9999,7 @@
             "question": [
                 "依信託業法規定，有關信託業之利害關係人，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10029,7 +10029,7 @@
             "question": [
                 "運用一年期以內短期信用工具，調節短期資金供需的交易市場，稱為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10059,7 +10059,7 @@
             "question": [
                 "金融機構間之新台幣拆款市場，係屬下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10089,7 +10089,7 @@
             "question": [
                 "下列何者非屬短期票券市場之信用工具？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10119,7 +10119,7 @@
             "question": [
                 "下列何者係在貨幣市場上擔任市場監督信用管理者及市場資金最後調節者？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10149,7 +10149,7 @@
             "question": [
                 "下列何者非屬貨幣市場的功能？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10179,7 +10179,7 @@
             "question": [
                 "中央政府為調節國庫收支，得發行未滿一年之信用工具，下列何者係屬之？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10209,7 +10209,7 @@
             "question": [
                 "銀行為了提高流動性，發行一種具有可轉讓但不可中途解約特性，並承諾一定時間後之到期日按票載利率支付本息予存款人之短期信用工具，係屬下列何者？   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10239,7 +10239,7 @@
             "question": [
                 "發票人簽發一定之金額，委託付款人於指定之到期日，無條件支付與受款人或執票人之票據，稱之為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10269,7 +10269,7 @@
             "question": [
                 "凡出售商品或提供勞務之相對人簽發之匯票，委託銀行為付款人而經其承兌者，稱之為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10299,7 +10299,7 @@
             "question": [
                 "凡出售商品或提供勞務之相對人簽發之匯票，以相對人(非銀行)為付款人而經其承兌者，稱之為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10329,7 +10329,7 @@
             "question": [
                 "發票人簽發一定之金額，於指定之到期日，由自己無條件支付與受款人或執票人之票據，稱之為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10359,7 +10359,7 @@
             "question": [
                 "下列何者非屬因出售商品或勞務之交易行為所簽發之票據？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10389,7 +10389,7 @@
             "question": [
                 "下列貨幣市場的短期信用工具中，何者簡稱為RP？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10419,7 +10419,7 @@
             "question": [
                 "下列貨幣市場的短期信用工具中，何者簡稱為RS？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10449,7 +10449,7 @@
             "question": [
                 "下列何者為間接金融？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10479,7 +10479,7 @@
             "question": [
                 "短期票券集中保管結算機構應以幾家為限？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10509,7 +10509,7 @@
             "question": [
                 "票券交割作業中，有關買賣雙方款項部分的清算作業，係由下列何者負責？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10539,7 +10539,7 @@
             "question": [
                 "下列何者為票券次級市場之交割方式？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10569,7 +10569,7 @@
             "question": [
                 "下列何者為票券集中保管之結算交割方式？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10599,7 +10599,7 @@
             "question": [
                 "下列何者之利息所得非採分離課稅方式扣繳，須依規定將利息所得併入綜合所得總額申報所得稅？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10629,7 +10629,7 @@
             "question": [
                 "目前短期票券之利息所得採分離課稅，按給付額扣繳多少？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10659,7 +10659,7 @@
             "question": [
                 "投資人購買一張可轉讓定存單，假設其利息所得為十萬元，請問採分離課稅後，其實際淨利息所得為多少？  "
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10689,7 +10689,7 @@
             "question": [
                 "投資人購買一張國庫券，假設其利息所得為二十萬元，請問其利息收入之分離課稅額為多少？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10719,7 +10719,7 @@
             "question": [
                 "下列何種信用工具之承銷價格非採貼現方式計算？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10749,7 +10749,7 @@
             "question": [
                 "票券商接受發行人之委託，依約定包銷或代銷票券之行為，稱為下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10779,7 +10779,7 @@
             "question": [
                 "下列何者亦稱為初級市場？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10809,7 +10809,7 @@
             "question": [
                 "下列何者非屬我國貨幣市場流通之主要信用工具？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -10839,7 +10839,7 @@
             "question": [
                 "下列哪一種固定收益的信用工具，其信用風險最大？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10869,7 +10869,7 @@
             "question": [
                 "在貨幣市場上，我們常聽到「利率上升一碼」的說詞，請問「一碼」是多少？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -10899,7 +10899,7 @@
             "question": [
                 "國庫券之發行、買回及還本付息等業務，係委由下列何者經理？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -10929,7 +10929,7 @@
             "question": [
                 "國庫券的競標者，其投標利率低於底標利率時，下列敘述何者正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10959,7 +10959,7 @@
             "question": [
                 "國庫券的非競標者，其申購價格係按下列何者計算？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -10989,7 +10989,7 @@
             "question": [
                 "銀行發行可轉讓定期存單可按月發行或指定到期日，其最低天期為何？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11019,7 +11019,7 @@
             "question": [
                 "銀行為資金調度需要，發行可轉讓定期存單，其發行天期最長為多久？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11049,7 +11049,7 @@
             "question": [
                 "金融機構經營拆款業務所得之利息收入，應繳納多少營業稅？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11079,7 +11079,7 @@
             "question": [
                 "為符合國際慣例，中央銀行於何時起，要求各拆款會員單位，拆款利息支付方式一律採到期支付？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11109,7 +11109,7 @@
             "question": [
                 "目前拆款市場的交割清算，大多採用下列何種方式辦理？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11139,7 +11139,7 @@
             "question": [
                 "下列何者不得作為流動準備？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11169,7 +11169,7 @@
             "question": [
                 "下列何者非屬金融機構合併法所定義之銀行業？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11199,7 +11199,7 @@
             "question": [
                 "下列何者於購買短期票券時，其利息收入免予扣繳所得稅？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11229,7 +11229,7 @@
             "question": [
                 "下列何者非屬中央銀行執行貨幣政策的工具？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11259,7 +11259,7 @@
             "question": [
                 "下列何者為我國中央銀行作為經常性信用控管的一項政策工具，其在執行貨幣政策時，較具時效性、機動性及主動性？   "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11289,7 +11289,7 @@
             "question": [
                 "中央銀行如欲採取寬鬆貨幣政策，則應採取下列何項措施？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11319,7 +11319,7 @@
             "question": [
                 "下列何者係中央銀行實施公開市場操作的短期目標？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11349,7 +11349,7 @@
             "question": [
                 "依票券金融管理法規定，融資性商業本票之發行，需委由經信用評等機構評等之金融機構保證，下列何者非屬前述所稱之金融機構？   "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11379,7 +11379,7 @@
             "question": [
                 "下列何者非屬票券商辦理簽證作業之內容？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11409,7 +11409,7 @@
             "question": [
                 "發行人所發行之商業本票，票券商承諾全數買入，並於承銷當日給付價款的方式，稱之為下列何者？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11439,7 +11439,7 @@
             "question": [
                 "中央銀行可轉讓定期存單之發行面額分為三種，下列何者非屬之？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11469,7 +11469,7 @@
             "question": [
                 "發行人運用融資性商業本票籌集資金，其需經過之程序，下列何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11499,7 +11499,7 @@
             "question": [
                 "「損失的不確定性」指的是下列何者？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11529,7 +11529,7 @@
             "question": [
                 "人的健康狀況屬於下列那一個名詞？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11559,7 +11559,7 @@
             "question": [
                 "下列何者敘述不正確？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11589,7 +11589,7 @@
             "question": [
                 "下列何者屬於純粹風險？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11619,7 +11619,7 @@
             "question": [
                 "會影響整個群體或大部份人的風險屬何種風險？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11649,7 +11649,7 @@
             "question": [
                 "下列何者屬於風險控制措施？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11679,7 +11679,7 @@
             "question": [
                 "針對損失頻率小但損失幅度大的風險，採何種風險管理方法較適宜？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -11709,7 +11709,7 @@
             "question": [
                 "對於損失幅度不大，且損失成本較能精確估計的風險，最宜採用下列何種風險管理方法？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11739,7 +11739,7 @@
             "question": [
                 "下列何種風險管理方法可以完全將損失發生之頻率降為零？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11769,7 +11769,7 @@
             "question": [
                 "下列何種風險管理方法具有降低損失頻率的功能？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -11799,7 +11799,7 @@
             "question": [
                 "下列何者屬於損失抑減措施？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11829,7 +11829,7 @@
             "question": [
                 "保險所承保的風險，一般僅限於："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11859,7 +11859,7 @@
             "question": [
                 "下列何者為可保風險？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11889,7 +11889,7 @@
             "question": [
                 "下列何者不是可保風險之要件？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11919,7 +11919,7 @@
             "question": [
                 "保險契約的當事人為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -11949,7 +11949,7 @@
             "question": [
                 "保險與儲蓄相同的是："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -11979,7 +11979,7 @@
             "question": [
                 "在保險事故發生時，保險人支付給被保險人或受益人的補償金額稱為："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12009,7 +12009,7 @@
             "question": [
                 "保險契約的關係人指："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -12039,7 +12039,7 @@
             "question": [
                 "我國保險法將保險分為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12069,7 +12069,7 @@
             "question": [
                 "下列何者不是我國保險法上人身保險的分類之一？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12099,7 +12099,7 @@
             "question": [
                 "一般人壽保險屬於："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12129,7 +12129,7 @@
             "question": [
                 "下列何者不屬於人壽保險之性質？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12159,7 +12159,7 @@
             "question": [
                 "產險公司不得經營下列何種保險？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12189,7 +12189,7 @@
             "question": [
                 "下列何者不是我國保險法上財產保險的分類之一？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12219,7 +12219,7 @@
             "question": [
                 "財產保險為："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -12249,7 +12249,7 @@
             "question": [
                 "下列何者不屬於財產保險之性質？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12279,7 +12279,7 @@
             "question": [
                 "財產保險不承保下列何種標的？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12309,7 +12309,7 @@
             "question": [
                 "人壽保險是依約給付一定金額的一種："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12339,7 +12339,7 @@
             "question": [
                 "人身保險不包括下列那一險種？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12369,7 +12369,7 @@
             "question": [
                 "下列何者是人壽保險的主要特徵？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12399,7 +12399,7 @@
             "question": [
                 "貸款購買房屋最好配合下列何種保險？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12429,7 +12429,7 @@
             "question": [
                 "下列有關定期保險之敘述何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12459,7 +12459,7 @@
             "question": [
                 "就保障目的而論，年輕夫妻養育子女期間應購買何種人壽保險？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12489,7 +12489,7 @@
             "question": [
                 "依我國保險法規定，人壽保險契約如涉及死亡給付之情況，發生保險事故之被保險人應年滿幾歲？  "
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -12519,7 +12519,7 @@
             "question": [
                 "依我國保險法規定，人壽保險之保險費到期未交付者，除契約另有訂定外，經催告到達後屆多少日仍不交付時，保險契約之效力停止？  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12549,7 +12549,7 @@
             "question": [
                 "依我國保險法規定，保險契約載有被保險人故意自殺，保險人仍應給付保險金額之條款者，其條款於訂約多久後始生效力？  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12579,7 +12579,7 @@
             "question": [
                 "下列有關終身繳費終身保險之敘述何者為非？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -12609,7 +12609,7 @@
             "question": [
                 "生存保險主要之目的為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12639,7 +12639,7 @@
             "question": [
                 "父母親為籌備子女教育基金，應該考慮購買的最適當保險為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12669,7 +12669,7 @@
             "question": [
                 "人壽保險公司給付之生存保險金，來自："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12699,7 +12699,7 @@
             "question": [
                 "所謂養老保險在性質上是一種？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12729,7 +12729,7 @@
             "question": [
                 "保險期間較長的生死合險，其主要用途為？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12759,7 +12759,7 @@
             "question": [
                 "下列何者屬於健康保險之範疇？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12789,7 +12789,7 @@
             "question": [
                 "影響傷害保險之保險費率最大的因素是？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12819,7 +12819,7 @@
             "question": [
                 "下列何者非傷害保險事故之「意外事故」，之構成要件？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12849,7 +12849,7 @@
             "question": [
                 "傷害保險失能保險金主要決定因素為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12879,7 +12879,7 @@
             "question": [
                 "下列何種年金旨在照顧基本經濟生活？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12909,7 +12909,7 @@
             "question": [
                 "下列何者不屬於社會年金保險之範疇？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -12939,7 +12939,7 @@
             "question": [
                 "保險人於被保險人生存期間或特定期間內，依照契約負一次或分期給付一定金額之責，此種保險稱為：  "
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -12969,7 +12969,7 @@
             "question": [
                 "年金保險契約中，如規定有保證給付金額，年金受領人死亡之時，如有一部份尚未支領，此時保險人應將該差額  "
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -12999,7 +12999,7 @@
             "question": [
                 "下列何者為投資型保險的特點？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13029,7 +13029,7 @@
             "question": [
                 "下列變額壽險之敘述何者為正確之敘述？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13059,7 +13059,7 @@
             "question": [
                 "下列萬能變額壽險之敘述何者為是？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13089,7 +13089,7 @@
             "question": [
                 "下列有關團體人壽保險的敘述何者錯誤？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -13119,7 +13119,7 @@
             "question": [
                 "依我國團體一年定期人壽保單示範條款規定，所謂「團體」，其最低人數通常為多少？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13149,7 +13149,7 @@
             "question": [
                 "下列何者非團體傷害保險之保險費考慮因素？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13179,7 +13179,7 @@
             "question": [
                 "下列何者非屬團體保險之險種？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13209,7 +13209,7 @@
             "question": [
                 "我國公教人員保險的主管機關為："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13239,7 +13239,7 @@
             "question": [
                 "下列何者非我國公教人員保險給付項目之一？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13269,7 +13269,7 @@
             "question": [
                 "下列何者非我國勞工保險承保的給付項目之一？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -13299,7 +13299,7 @@
             "question": [
                 "下列何者為我國勞工保險中職業災害保險的承保項目？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13329,7 +13329,7 @@
             "question": [
                 "下列何者為我國勞工保險中普通事故保險與職業災害保險二者均會給付之項目？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13359,7 +13359,7 @@
             "question": [
                 "我國勞工保險主管機關在中央為："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13389,7 +13389,7 @@
             "question": [
                 "我國勞工保險規定，被保險人的年齡限制為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13419,7 +13419,7 @@
             "question": [
                 "我國就業保險之中央主管機關為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13449,7 +13449,7 @@
             "question": [
                 "下列何者非我國就業保險之給付項目？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13479,7 +13479,7 @@
             "question": [
                 "我國就業保險規定，被保險人的年齡限制為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13509,7 +13509,7 @@
             "question": [
                 "我國就業保險規定，被保險人包括："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -13539,7 +13539,7 @@
             "question": [
                 "下列何者非我國農民健康保險承保的給付項目之一？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13569,7 +13569,7 @@
             "question": [
                 "下列何者非我國農民健康保險承保的危險事故之一種？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -13599,7 +13599,7 @@
             "question": [
                 "我國農民健康保險的被保險人不包括："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13629,7 +13629,7 @@
             "question": [
                 "我國軍人保險中所稱「軍人」，係指："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13659,7 +13659,7 @@
             "question": [
                 "我國軍人保險之給付項目之種類不包括："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13689,7 +13689,7 @@
             "question": [
                 "我國軍人保險之主管機關為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13719,7 +13719,7 @@
             "question": [
                 "我國軍人保險退伍及身心障礙給付，受益人為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13749,7 +13749,7 @@
             "question": [
                 "我國全民健康保險承保的危險事故不包括："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13779,7 +13779,7 @@
             "question": [
                 "我國全民健康保險第一類的保險對象不包括："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13809,7 +13809,7 @@
             "question": [
                 "我國全民健康保險規定第一類被保險人負擔其眷屬之保險費，最高以幾口為限？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13839,7 +13839,7 @@
             "question": [
                 "設(甲)全民健康保險，(乙)商業性健康保險，則下列敘述何者為非："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13869,7 +13869,7 @@
             "question": [
                 "下列何者不可作為財產保險之保險標的？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13899,7 +13899,7 @@
             "question": [
                 "廠房因火災而遭燒毀，則此損失屬："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -13929,7 +13929,7 @@
             "question": [
                 "下列何者為間接損失保險？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -13959,7 +13959,7 @@
             "question": [
                 "一般財產保險通常不承保下列何種危險事故？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -13989,7 +13989,7 @@
             "question": [
                 "下列何種保險之保險標的，無保險價額之概念？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14019,7 +14019,7 @@
             "question": [
                 "下列何種標的物投保時採定值保險單方式？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14049,7 +14049,7 @@
             "question": [
                 "以一個保險金額，承保多數標的物之保險單稱為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14079,7 +14079,7 @@
             "question": [
                 "財產保險之保險利益一般須在何時存在？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14109,7 +14109,7 @@
             "question": [
                 "我國財產保險遇有複保險情形時，大都採何種賠款分攤方式？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -14139,7 +14139,7 @@
             "question": [
                 "下列何者不是企業財產保險的重要功能？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -14169,7 +14169,7 @@
             "question": [
                 "下列何者不是財產保險對個人之功能？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14199,7 +14199,7 @@
             "question": [
                 "下列何者不是財產保險對國家社會的功能？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14229,7 +14229,7 @@
             "question": [
                 "我國商業火災保險之基本承保事故不包括："
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -14259,7 +14259,7 @@
             "question": [
                 "我國商業火災保險之保險金額，除另有約定外，以下列何者為基礎？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14289,7 +14289,7 @@
             "question": [
                 "下列何者非商業火災保險之承保標的？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14319,7 +14319,7 @@
             "question": [
                 "我國商業火災保險附加之共保附加條款，其共保百分比為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14349,7 +14349,7 @@
             "question": [
                 "海上保險之查勘費及公證費為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14379,7 +14379,7 @@
             "question": [
                 "共同海損屬於下列何種損失？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14409,7 +14409,7 @@
             "question": [
                 "我國自用汽車保險單不包括："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -14439,7 +14439,7 @@
             "question": [
                 "免自負額車對車碰撞損失保險即車體損失險："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14469,7 +14469,7 @@
             "question": [
                 "下列何者不是自用汽車保險第三人責任保險之附加被保險人？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14499,7 +14499,7 @@
             "question": [
                 "對必須更換之零件，汽車車體損失險如何理賠？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14529,7 +14529,7 @@
             "question": [
                 "下列何者非車體損失險乙式之承保危險事故？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -14559,7 +14559,7 @@
             "question": [
                 "責任保險又稱為："
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14589,7 +14589,7 @@
             "question": [
                 "責任保險所承保的責任為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14619,7 +14619,7 @@
             "question": [
                 "下列何者責任保險實際上包括責任保險與財產保險？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -14649,7 +14649,7 @@
             "question": [
                 "下列何者不是「保證」之當事人？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -14679,7 +14679,7 @@
             "question": [
                 "下列何者不屬於員工誠實保證保險之被保證員工範圍？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14709,7 +14709,7 @@
             "question": [
                 "員工誠實保證保險不承保員工何種行為？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14739,7 +14739,7 @@
             "question": [
                 "庫存現金保險及櫃台現金保險不承保下列何種事故？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14769,7 +14769,7 @@
             "question": [
                 "現行現金保險所承保之現金不包括："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -14799,7 +14799,7 @@
             "question": [
                 "保障範圍包括被保險人之所有債務人在內的信用保險單，稱為："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14829,7 +14829,7 @@
             "question": [
                 "下列何者不是我國強制汽車責任保險之性質？"
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -14859,7 +14859,7 @@
             "question": [
                 "強制汽車責任保險之死亡給付金額為新台幣："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -14889,7 +14889,7 @@
             "question": [
                 "強制汽車責任保險之給付項目不包括："
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -14919,7 +14919,7 @@
             "question": [
                 "下列何種情形不可向特別補償基金請求補償？"
             ],
-            "answer": [
+            "answersList": [
                 "2"
             ],
             "answerType": "choice",
@@ -14949,7 +14949,7 @@
             "question": [
                 "強制汽車責任保險之保險人應於保險期間屆滿前何時以書面通知被保險人續保？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -14979,7 +14979,7 @@
             "question": [
                 "我國現行住宅火災及地震基本保險之承保危險事故不包括："
             ],
-            "answer": [
+            "answersList": [
                 "1"
             ],
             "answerType": "choice",
@@ -15009,7 +15009,7 @@
             "question": [
                 "火災及地震基本保險承保之住宅建築物係以何種基礎約定保險金額？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -15039,7 +15039,7 @@
             "question": [
                 "我國現行住宅火災保險對承保之建築物適用何種比例之共保條款？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",
@@ -15069,7 +15069,7 @@
             "question": [
                 "我國現行住宅火災及地震基本保險不承保下列何種標的？"
             ],
-            "answer": [
+            "answersList": [
                 "3"
             ],
             "answerType": "choice",
@@ -15099,7 +15099,7 @@
             "question": [
                 "住宅地震基本保險對建築物之賠償限額為？"
             ],
-            "answer": [
+            "answersList": [
                 "4"
             ],
             "answerType": "choice",

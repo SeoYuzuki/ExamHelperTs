@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div :style="{ 'background-color': colorIn, color: textColor }">
+    <div id="qBlock" :style="{ 'background-color': colorIn, color: textColor }">
       <div>
         {{ topic.topicName }}
         <Poptip placement="right" width="400">
@@ -32,13 +32,13 @@
           v-model="selectedItems"
         >
           <template
-            v-for="option in questionElement.options"
+            v-for="(option, index) in questionElement.options"
             :key="option.optTitle"
           >
             <Row>
               <Checkbox :label="option.optTitle" :key="option.optTitle">
                 <span :class="showError(option)">
-                  {{ option.optTitle }}. {{ option.optContent }}
+                  {{ charCodeMap[index + 1] }}. {{ option.optContent }}
                 </span>
               </Checkbox>
             </Row>
@@ -50,7 +50,7 @@
           v-if="questionElement.answerType === 'non-choice' && isChecked"
         >
           <Card>
-            <div v-for="answer in questionElement.answer" :key="answer">
+            <div v-for="answer in questionElement.answersList" :key="answer">
               <template v-if="answer.startsWith('Picture:')">
                 <img
                   class="pic"
@@ -69,30 +69,36 @@
       <br />
       <br />
     </div>
-    <FooterToolbar>
-      <Row :gutter="16">
-        <Col span="5">
-          <Space>
-            顯示答案
-            <i-Switch v-model="isChecked"> </i-Switch>
-          </Space>
-        </Col>
-        <Col span="6"> </Col>
-        <Col span="2">
-          <Button type="primary" @click="keydownHandler(37)">
-            <Icon type="md-arrow-round-back" />
+
+    <div id="footer">
+      <Row class-name="footer-row" :gutter="16">
+        <Col span="8">
+          <Button
+            class="footer-btn"
+            type="primary"
+            @click="keydownHandler(37)"
+            icon="md-arrow-round-back"
+          >
+            <!-- <Icon type="md-arrow-round-back" /> -->
           </Button>
         </Col>
-        <Col span="2">
-          <Button type="primary" @click="keydownHandler(39)">
+        <Col span="8">
+          <Button
+            class="footer-btn"
+            type="primary"
+            @click="isChecked = !isChecked"
+            :ghost="!isChecked"
+          >
+            顯示答案
+          </Button>
+        </Col>
+        <Col span="8">
+          <Button class="footer-btn" type="primary" @click="keydownHandler(39)">
             <Icon type="md-arrow-round-forward" />
           </Button>
         </Col>
-        <Col span="6">
-          <Button type="primary" @click="$emit('onBackToMain')"> 離開 </Button>
-        </Col>
       </Row>
-    </FooterToolbar>
+    </div>
   </div>
 </template>
 
@@ -114,6 +120,7 @@ export default class ExamMode extends Vue.with(Props) {
   qIndex = 0;
   selectedItems: string[] = [];
   isChecked = false; // 是否檢查答案
+  charCodeMap = charCodeMap;
 
   get topic(): Topic {
     return this.topicList[this.topicIndex];
@@ -140,11 +147,14 @@ export default class ExamMode extends Vue.with(Props) {
     if (this.questionElement.answerType === "non-choice") {
       return true;
     }
-    return arraysEqual(this.questionElement.answer, this.selectedItems);
+    return arraysEqual(this.questionElement.answersList, this.selectedItems);
   }
 
   showError(e: Option): string {
-    if (this.isChecked && this.questionElement.answer.includes(e.optTitle)) {
+    if (
+      this.isChecked &&
+      this.questionElement.answersList.includes(e.optTitle)
+    ) {
       if (this.isCorrect) {
         return "border-color-green";
       } else {
@@ -276,8 +286,29 @@ export default class ExamMode extends Vue.with(Props) {
   max-height: 800px;
 }
 
-:deep(.ivu-footer-toolbar-right) {
+/* :deep(.ivu-footer-toolbar-right) {
   width: 100%;
   background-color: rgb(233, 222, 221);
+} */
+
+#qBlock {
+  height: 90%;
+}
+
+#footer {
+  width: 80%;
+  height: 10%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: bisque;
+}
+
+.footer-row {
+  height: 100%;
+}
+.footer-btn {
+  width: 100%;
+  height: 100%;
 }
 </style>

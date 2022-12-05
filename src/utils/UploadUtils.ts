@@ -8,7 +8,7 @@ const getTopicByFile = async function (file: File): Promise<Topic> {
     return new Promise((resolve) => {
         if (!file.name.includes(".txt") && !file.name.includes(".json")) {
             //this.$Message.warning("不合規副檔名");
-            resolve(new Topic());
+            resolve({ topicName: "", topicInfo: "", questionElementList: [] });
             return;
         }
 

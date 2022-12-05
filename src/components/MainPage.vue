@@ -1,18 +1,27 @@
 <template>
   <div class="text-block">
     <!-- <Slider v-model="value" range /> -->
-    <Grid :col="1">
+    <Grid :col="1" hover padding="0px">
       <GridItem>
-        <Row :gutter="20">
-          <Col span="2" offset="20">
+        <Row :gutter="16">
+          <Col span="4" offset="18">
+            <Button
+              v-if="mode === Mode.ExamPage"
+              type="primary"
+              @click="onBackToMain"
+            >
+              <Icon type="ios-close" />
+            </Button>
+          </Col>
+          <Col span="2">
             <Button type="primary" @click="isShowSetting = !isShowSetting">
-              設定
+              <Icon type="md-settings" />
             </Button>
           </Col>
         </Row>
       </GridItem>
     </Grid>
-    <Grid :col="1">
+    <Grid :col="1" padding="0px">
       <GridItem>
         <PreExamMode
           v-if="mode === Mode.MainPage"
@@ -27,8 +36,6 @@
         />
       </GridItem>
     </Grid>
-    Topic:
-    {{ t }}
 
     <SettingMadel
       v-model:isShowSetting="isShowSetting"
@@ -57,7 +64,6 @@ import { Source, Mode } from "../enum/enum";
   },
 })
 export default class MainPage extends Vue {
-  t = new Topic();
   // enum ----------------------------------------
   Mode = Mode;
   Source = Source;
@@ -99,18 +105,13 @@ export default class MainPage extends Vue {
 <style scoped>
 .text-block {
   white-space: pre-wrap;
-  /* font-size: 55px; */
-  /* display: inline-block;
-        /* max-width: 200px; */
-  width: 100%;
-  /* left: 10%; */
+
+  position: relative;
+
+  left: 10%;
+  right: 10%;
+  width: 80%;
   height: 100%;
   text-align: left;
-  /* position: absolute; */
-  /* top: 50%; */
-
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 </style>

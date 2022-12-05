@@ -1,36 +1,57 @@
 <template>
   <div>
-    <Row :gutter="16">
-      <Col span="4"> 請選擇題庫: </Col>
-      <Col span="10">
-        <Select
-          style="width: 200px"
-          v-model="selectedTopics"
-          multiple
-          @on-change="onSelectChange"
-        >
-          <Option
-            v-for="topic in topicLibList"
-            :value="topic.topicName"
-            :key="topic.topicName"
+    <div id="block0">
+      <Row :gutter="16">
+        <Col span="8"> 請選擇題庫: </Col>
+        <Col span="10">
+          <Select
+            style="width: 200px"
+            v-model="selectedTopics"
+            multiple
+            @on-change="onSelectChange"
           >
-            {{ topic.topicName }}
-          </Option>
-        </Select>
-      </Col>
-    </Row>
-    <Row :gutter="16">
-      <Col span="4"> 或選擇檔案: </Col>
-      <Col span="10">
-        <input multiple type="file" ref="file" @change="readFile()" />
-      </Col>
-    </Row>
-    <Row :gutter="16">
-      <Col span="10" offset="10">
-        <Button type="primary" @click="changeMode">確定</Button>
-      </Col>
-    </Row>
-    <br />
+            <Option
+              v-for="topic in topicLibList"
+              :value="topic.topicName"
+              :key="topic.topicName"
+            >
+              {{ topic.topicName }}
+            </Option>
+          </Select>
+        </Col>
+      </Row>
+      <Row :gutter="16">
+        <Col span="8"> 或選擇檔案: </Col>
+        <Col span="10">
+          <input multiple type="file" ref="file" @change="readFile()" />
+        </Col>
+      </Row>
+      <Row :gutter="16">
+        <Col span="8"> Quistions Order: </Col>
+        <Col span="10">
+          <RadioGroup v-model="quistionsOrder">
+            <Radio label="Default"> </Radio>
+            <Radio label="Sorted"></Radio>
+            <Radio label="Random"></Radio>
+          </RadioGroup>
+        </Col>
+      </Row>
+      <Row :gutter="16">
+        <Col span="8"> Options Order: </Col>
+        <Col span="10">
+          <RadioGroup v-model="optionsOrder">
+            <Radio label="Sorted"></Radio>
+            <Radio label="Random"></Radio>
+          </RadioGroup>
+        </Col>
+      </Row>
+      <Row :gutter="16">
+        <Col span="24">
+          <Button type="primary" @click="changeMode" long>確定</Button>
+        </Col>
+      </Row>
+      <br />
+    </div>
   </div>
 </template>
 
@@ -52,9 +73,42 @@ export default class PreExamMode extends Vue {
 
   topicFromWhere: Source = Source.SELECT; //先寫死
 
+  quistionsOrder = "Default";
+  optionsOrder = "Sorted";
+
   changeMode(): void {
     if (this.topicList.length > 0) {
-      this.$emit("onTopicsSelected", this.topicList);
+      let sortedTopicList: Topic[] = JSON.parse(JSON.stringify(this.topicList));
+      if (this.quistionsOrder === "Default") {
+        // DO nothing
+      } else if (this.quistionsOrder === "Sorted") {
+        sortedTopicList.forEach((qList) => {
+          // 排序
+          qList.questionElementList = qList.questionElementList.sort((a, b) => {
+            return parseInt(a.title) - parseInt(b.title);
+          });
+        });
+      } else if (this.quistionsOrder === "Random") {
+        sortedTopicList.forEach((qList) => {
+          // 亂序
+          qList.questionElementList = qList.questionElementList.sort(() => {
+            return Math.random() - 0.5;
+          });
+        });
+      }
+
+      if (this.optionsOrder === "Random") {
+        sortedTopicList.forEach((qList) => {
+          // 亂序
+          qList.questionElementList.forEach((e) => {
+            e.options.sort(() => {
+              return Math.random() - 0.5;
+            });
+          });
+        });
+      }
+
+      this.$emit("onTopicsSelected", sortedTopicList);
     } else {
       this.$Message.warning("請選擇題庫");
     }

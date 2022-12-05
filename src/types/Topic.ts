@@ -1,6 +1,6 @@
 import { QuestionElement } from './QuestionElement';
 
-export default class Topic {
+export default interface Topic {
   topicName: string;
   topicInfo: string;
   questionElementList: QuestionElement[]

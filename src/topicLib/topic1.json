@@ -10,7 +10,7 @@
               "You need to configure a chart widget that measures the elapsed time to complete work items once they become active.",
               "Which of the following is the widget you should use?"
           ],
-          "answer": [
+          "answersList": [
               "C"
           ],
           "answerType": "choice",
@@ -41,7 +41,7 @@
               "The Burnup widget measures the elapsed time from creation of work items to their completion.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -73,7 +73,7 @@
               "You have been informed that the management of users and licenses must be automated when it can be.",
               "Which of the following is a task that can't be automated?"
           ],
-          "answer": [
+          "answersList": [
               "D"
           ],
           "answerType": "choice",
@@ -103,7 +103,7 @@
               "You have been tasked with strengthening the security of your team's development process.",
               "You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process. Which of the following is the option you would suggest?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -135,7 +135,7 @@
               "You have suggested upgrading TFS to the most recent RTW release.",
               "Which of the following should also be suggested?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -177,7 +177,7 @@
               "You want to make sure that the work item process you use for the client allows for requirements, change requests, risks, and reviews to be tracked.",
               "Which of the following is the option you would choose?"
           ],
-          "answer": [
+          "answersList": [
               "D"
           ],
           "answerType": "choice",
@@ -209,7 +209,7 @@
               "Solution: You set the -ConfigurationMode parameter to ApplyOnly.",
               "Does the solution meet the goal?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -233,7 +233,7 @@
               "Solution: You set the -ConfigurationMode parameter to ApplyAndMonitor.",
               "Does the solution meet the goal?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -258,7 +258,7 @@
               "Solution: You set the -ConfigurationMode parameter to ApplyAndAutocorrect.",
               "Does the solution meet the goal?"
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",
@@ -281,7 +281,7 @@
               "To compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -312,7 +312,7 @@
               "You are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network.",
               "Which of the following actions should you take?"
           ],
-          "answer": [
+          "answersList": [
               "D"
           ],
           "answerType": "choice",
@@ -343,7 +343,7 @@
               "You are preparing to use a version control system that allows for source code to be stored on a managed Windows server located on the company network.",
               "Which of the following is the version control system you should use?"
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",
@@ -374,7 +374,7 @@
               "When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "D"
           ],
           "answerType": "choice",
@@ -406,7 +406,7 @@
               "You have to make sure that only production dependencies are scanned by WhiteSource Bolt.",
               "Which of the following is a command you should run?"
           ],
-          "answer": [
+          "answersList": [
               "C"
           ],
           "answerType": "choice",
@@ -437,7 +437,7 @@
               "The strategy should allow you to keep the time it takes to deploy new releases of the app to a minimum. The strategy should also allow you to roll back in the shortest time required.",
               "Which of the following is the release strategy you should use?"
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",
@@ -470,7 +470,7 @@
               "You need to make sure that releases not satisfying the performance baseline are prevented from being deployed.",
               "Which of the following actions should you take?"
           ],
-          "answer": [
+          "answersList": [
               "C"
           ],
           "answerType": "choice",
@@ -501,7 +501,7 @@
               "To deploy an application to a number of Azure virtual machines, you should create a universal group.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "C"
           ],
           "answerType": "choice",
@@ -544,7 +544,7 @@
               "You want to use a solitary feed to release several builds of each package. You have to make sure that the release of packages that are in development is restricted.",
               "Which of the following actions should you take?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -575,7 +575,7 @@
               "To find when common open source libraries are added to the code base, you should add Jenkins to the build pipeline.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "C"
           ],
           "answerType": "choice",
@@ -606,7 +606,7 @@
               "You have been tasked with making sure that you are able to scan project for common security weaknesses in the open source libraries.",
               "Which of the following actions should you take?"
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",
@@ -637,7 +637,7 @@
               "Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",
@@ -668,7 +668,7 @@
               "You are preparing a deployment solution that allows for the virtual machines to maintain a uniform configuration, and also keep administrative effort with regards to configuring the virtual machines to a minimum.",
               "Which of the following should be part of your solution? (Choose two.)"
           ],
-          "answer": [
+          "answersList": [
               "A",
               "B"
           ],
@@ -704,7 +704,7 @@
               "You would like to view recommendations with regards to the security of the web apps and functions. You plan to navigate to Compute and Apps to achieve your goal.",
               "Which of the following should you access to make use of Compute and Apps?"
           ],
-          "answer": [
+          "answersList": [
               "D"
           ],
           "answerType": "choice",
@@ -736,7 +736,7 @@
               "To pinpoint the average load times of the application pages, you should make use of Azure Event Hubs.",
               "Select ג€No adjustment requiredג€ if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option."
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -768,7 +768,7 @@
               "Solution: You use the Contextual Query Language (CQL).",
               "Does the solution meet the goal?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -792,7 +792,7 @@
               "Solution: You use the Transact-SQL.",
               "Does the solution meet the goal?"
           ],
-          "answer": [
+          "answersList": [
               "B"
           ],
           "answerType": "choice",
@@ -816,7 +816,7 @@
               "Solution: You use Azure Log Analytics.",
               "Does the solution meet the goal?"
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",
@@ -852,7 +852,7 @@
               "You want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received.",
               "Which of the following must be part of your solution?"
           ],
-          "answer": [
+          "answersList": [
               "A"
           ],
           "answerType": "choice",

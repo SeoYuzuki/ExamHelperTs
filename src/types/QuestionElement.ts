@@ -3,7 +3,7 @@ class QuestionElement {
     qInfo: string;
     title: string;
     question: string[];
-    answer: string[];
+    answersList: string[];
     answerType: string;
     options: Option[];
 }

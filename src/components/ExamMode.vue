@@ -10,6 +10,7 @@
             topicInfo: {{ topic.topicInfo }}
           </template>
         </Poptip>
+        <Rate @on-change="saveReviewList()" v-model="starValue" />
       </div>
 
       <br />
@@ -86,7 +87,7 @@
           <Button
             class="footer-btn"
             type="primary"
-            @click="isChecked = !isChecked"
+            @click="changeIsChecked()"
             :ghost="!isChecked"
           >
             顯示答案
@@ -109,6 +110,8 @@ import { arraysEqual } from "../utils/ArrayUtil";
 import { prop, Vue } from "vue-class-component";
 import { charCodeMap } from "../enum/charCodeMap";
 import Settings from "@/types/Settings";
+import { useCookies } from "vue3-cookies";
+import ReviewQuestion from "@/types/ReviewQuestion";
 
 export class Props {
   topicList = prop<Topic[]>({ required: true });
@@ -116,11 +119,13 @@ export class Props {
 }
 
 export default class ExamMode extends Vue.with(Props) {
+  cookies = useCookies().cookies;
   topicIndex = 0;
   qIndex = 0;
   selectedItems: string[] = [];
   isChecked = false; // 是否檢查答案
   charCodeMap = charCodeMap;
+  starValue = 1;
 
   get topic(): Topic {
     return this.topicList[this.topicIndex];
@@ -164,15 +169,18 @@ export default class ExamMode extends Vue.with(Props) {
       return "";
     }
   }
+
+  // mounted-------------------------------------
+  mounted(): void {
+    window.addEventListener("keydown", this.onkeydown);
+    this.readReviewList();
+  }
+
   onkeydown(e: KeyboardEvent): void {
     if (e.keyCode == 32 && e.target == document.body) {
       e.preventDefault();
     }
     this.keydownHandler(e.keyCode);
-  }
-  // mounted-------------------------------------
-  mounted(): void {
-    window.addEventListener("keydown", this.onkeydown);
   }
 
   keydownHandler(keyCode: number): void {
@@ -189,13 +197,44 @@ export default class ExamMode extends Vue.with(Props) {
     this.pressAns(charCode); //輸入答案
 
     if (charCode == "\r" /*enter*/ || charCode == " " /*space*/) {
-      // 檢查答案與否
-      this.isChecked = !this.isChecked;
+      this.changeIsChecked();
     }
   }
+
+  /**
+   * 更改顯示答案狀態
+   */
+  changeIsChecked(): void {
+    // 檢查答案與否
+    this.isChecked = !this.isChecked;
+    if (this.isChecked) {
+      if (this.questionElement.answerType == "choice") {
+        let temp: string[] = [];
+        this.questionElement.answersList.forEach((answer) => {
+          temp.push(
+            charCodeMap[
+              this.questionElement.options.findIndex((option) => {
+                return answer == option.optTitle;
+              }) + 1
+            ]
+          );
+        });
+        this.$Message["success"]({
+          background: true,
+          content: temp,
+        });
+      } else if (this.questionElement.answerType == "non-choice") {
+        this.$Message["success"]({
+          background: true,
+          content: this.questionElement.answersList,
+        });
+      }
+    }
+  }
+
   // 過題
   changeQ(keyCode: number): void {
-    if (![37, 38, 39, 40].includes(keyCode)) {
+    if (![37, 39].includes(keyCode)) {
       return;
     }
 
@@ -211,11 +250,10 @@ export default class ExamMode extends Vue.with(Props) {
           this.topicIndex = this.topicIndex - 1;
           this.qIndex = this.qList.length - 1;
         }
-        return;
+      } else {
+        this.qIndex = this.qIndex - 1;
       }
-      this.qIndex = this.qIndex - 1;
-    }
-    if (keyCode == 39 /*右*/) {
+    } else if (keyCode == 39 /*右*/) {
       if (this.qIndex + 1 == this.qList.length) {
         if (this.topicIndex + 1 == this.topicList.length) {
           this.$Message.warning("最末題");
@@ -223,15 +261,59 @@ export default class ExamMode extends Vue.with(Props) {
           this.topicIndex = this.topicIndex + 1;
           this.qIndex = 0;
         }
-        return;
+      } else {
+        this.qIndex = this.qIndex + 1;
       }
-      this.qIndex = this.qIndex + 1;
     }
-    // if (keyCode == 38 /*上*/) {
-    // }
 
-    // if (keyCode == 40 /*下*/) {
-    // }
+    this.readReviewList();
+  }
+
+  // 讀取複習題庫清單，得到該題starValue
+  readReviewList(): void {
+    let reviewQuestionList: ReviewQuestion[] = JSON.parse(
+      this.cookies.get("reviewList")
+    );
+
+    let reviewQuestion: ReviewQuestion | undefined = reviewQuestionList.find(
+      (e) => {
+        return (
+          e.topicName === this.topic.topicName &&
+          e.title === this.questionElement.title
+        );
+      }
+    );
+    if (reviewQuestion) {
+      this.starValue = reviewQuestion.starValue;
+    } else {
+      this.starValue = 1;
+    }
+  }
+
+  // 讀取複習題庫清單，儲存該題starValue
+  saveReviewList(): void {
+    let reviewQuestionList: ReviewQuestion[] = JSON.parse(
+      this.cookies.get("reviewList")
+    );
+    let reviewQuestion: ReviewQuestion | undefined = reviewQuestionList.find(
+      (e) => {
+        return (
+          e.topicName === this.topic.topicName &&
+          e.title === this.questionElement.title
+        );
+      }
+    );
+    if (reviewQuestion) {
+      reviewQuestion.starValue = this.starValue;
+    } else {
+      reviewQuestionList.push({
+        topicName: this.topic.topicName,
+        title: this.questionElement.title,
+        starValue: this.starValue,
+      });
+    }
+
+    this.cookies.set("reviewList", JSON.stringify(reviewQuestionList), "3y"); // 3 year after, expire
   }
 
   /** 鍵盤輸入答案 填入 */
@@ -296,8 +378,8 @@ export default class ExamMode extends Vue.with(Props) {
 }
 
 #footer {
-  width: 80%;
-  height: 10%;
+  width: 94%;
+  height: 6%;
   position: fixed;
   bottom: 0px;
   z-index: 1;

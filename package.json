@@ -1,5 +1,5 @@
 {
-  "name": "vue-no-back-end2",
+  "name": "ExamHelperTs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "core-js": "^3.6.5",
     "view-ui-plus": "^1.3.1",
     "vue": "^3.0.0",
-    "vue-class-component": "^8.0.0-0"
+    "vue-class-component": "^8.0.0-0",
+    "vue3-cookies": "^1.0.6"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",

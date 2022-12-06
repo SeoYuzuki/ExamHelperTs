@@ -52,6 +52,7 @@ import ExamMode from "./ExamMode.vue";
 import PreExamMode from "./PreExamMode.vue";
 import SettingMadel from "./SettingMadel.vue";
 import { Source, Mode } from "../enum/enum";
+import { useCookies } from "vue3-cookies";
 
 @Options({
   components: {
@@ -64,6 +65,7 @@ import { Source, Mode } from "../enum/enum";
   },
 })
 export default class MainPage extends Vue {
+  cookies = useCookies().cookies;
   // enum ----------------------------------------
   Mode = Mode;
   Source = Source;
@@ -97,6 +99,12 @@ export default class MainPage extends Vue {
   mounted(): void {
     this.settings = new Settings();
     console.log("settings", this.settings, this.msg);
+
+    // initial cookies
+    if (!this.cookies.get("reviewList")) {
+      this.cookies.set("reviewList", JSON.stringify([]), "3y"); // 3 year after, expire
+      return;
+    }
   }
 }
 </script>
@@ -108,9 +116,9 @@ export default class MainPage extends Vue {
 
   position: relative;
 
-  left: 10%;
-  right: 10%;
-  width: 80%;
+  left: 3%;
+  right: 3%;
+  width: 94%;
   height: 100%;
   text-align: left;
 }

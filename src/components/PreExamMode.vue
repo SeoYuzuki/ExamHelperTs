@@ -2,7 +2,7 @@
   <div>
     <div id="block0">
       <Row :gutter="16">
-        <Col span="8"> 請選擇題庫: </Col>
+        <Col span="8"> 選擇一般題庫: </Col>
         <Col span="10">
           <Select
             style="width: 200px"
@@ -21,7 +21,13 @@
         </Col>
       </Row>
       <Row :gutter="16">
-        <Col span="8"> 或選擇檔案: </Col>
+        <Col span="8"> 選擇題目難度:</Col>
+        <Col span="10">
+          <Rate v-model="starValue" />
+        </Col>
+      </Row>
+      <Row :gutter="16">
+        <Col span="8"> 選擇檔案: </Col>
         <Col span="10">
           <input multiple type="file" ref="file" @change="readFile()" />
         </Col>
@@ -60,19 +66,22 @@ import { Source } from "@/enum/enum";
 import Topic from "@/types/Topic";
 import { getTopicsByFile } from "../utils/UploadUtils";
 import { Vue } from "vue-class-component";
+import { shuffle } from "@/utils/ArrayUtil";
+import { useCookies } from "vue3-cookies";
+import ReviewQuestion from "@/types/ReviewQuestion";
 
 export default class PreExamMode extends Vue {
   $refs!: {
     file: HTMLInputElement;
   };
-
+  cookies = useCookies().cookies;
   selectedTopics: string[] = [];
   topicLibList: Topic[] = [];
-
   topicUploadList: Topic[] = [];
 
   topicFromWhere: Source = Source.SELECT; //先寫死
 
+  starValue = 1; // 複習題庫
   quistionsOrder = "Default";
   optionsOrder = "Sorted";
 
@@ -91,9 +100,7 @@ export default class PreExamMode extends Vue {
       } else if (this.quistionsOrder === "Random") {
         sortedTopicList.forEach((qList) => {
           // 亂序
-          qList.questionElementList = qList.questionElementList.sort(() => {
-            return Math.random() - 0.5;
-          });
+          shuffle(qList.questionElementList);
         });
       }
 
@@ -101,10 +108,28 @@ export default class PreExamMode extends Vue {
         sortedTopicList.forEach((qList) => {
           // 亂序
           qList.questionElementList.forEach((e) => {
-            e.options.sort(() => {
-              return Math.random() - 0.5;
-            });
+            shuffle(e.options);
           });
+        });
+      }
+
+      if (this.starValue > 1) {
+        let reviewQuestionList: ReviewQuestion[] = JSON.parse(
+          this.cookies.get("reviewList")
+        );
+        sortedTopicList.forEach((qList) => {
+          // 亂序
+          qList.questionElementList = qList.questionElementList.filter(
+            (qElement) => {
+              return reviewQuestionList.some((reviewQuestion) => {
+                return (
+                  reviewQuestion.topicName === qList.topicName &&
+                  reviewQuestion.title === qElement.title &&
+                  reviewQuestion.starValue >= this.starValue
+                );
+              });
+            }
+          );
         });
       }
 
@@ -112,6 +137,20 @@ export default class PreExamMode extends Vue {
     } else {
       this.$Message.warning("請選擇題庫");
     }
+
+    this.saveCookie();
+  }
+
+  saveCookie(): void {
+    this.cookies.set(
+      "preExamConfig",
+      JSON.stringify({
+        quistionsOrder: this.quistionsOrder,
+        optionsOrder: this.optionsOrder,
+        selectedTopics: this.selectedTopics,
+      }),
+      "3y"
+    ); // 3 year after, expire
   }
 
   async readFile(): Promise<void> {
@@ -139,6 +178,16 @@ export default class PreExamMode extends Vue {
   // mounted ----------------------------------------
   mounted(): void {
     this.loadTopicLib();
+    let preExamConfig: any = this.cookies.get("preExamConfig");
+    if (preExamConfig?.quistionsOrder) {
+      this.quistionsOrder = preExamConfig.quistionsOrder;
+    }
+    if (preExamConfig?.optionsOrder) {
+      this.optionsOrder = preExamConfig.optionsOrder;
+    }
+    if (preExamConfig?.selectedTopics) {
+      this.selectedTopics = preExamConfig.selectedTopics;
+    }
   }
 
   loadTopicLib(): void {

@@ -3,7 +3,7 @@
     <div id="block0">
       <Row :gutter="16">
         <Col span="8"> 選擇一般題庫: </Col>
-        <Col span="10">
+        <Col span="8">
           <Select
             style="width: 200px"
             v-model="selectedTopics"
@@ -14,6 +14,9 @@
               {{ topic }}
             </Option>
           </Select>
+        </Col>
+        <Col span="1">
+          <Icon @click="selectedTopics = []" type="ios-close-circle-outline" />
         </Col>
       </Row>
       <Row :gutter="16">
@@ -49,7 +52,14 @@
       </Row>
       <Row :gutter="16">
         <Col span="24">
-          <Button type="primary" @click="clickConfirm" long>確定</Button>
+          <Button
+            type="primary"
+            @click="clickConfirm"
+            :loading="isLoading"
+            long
+          >
+            確定
+          </Button>
         </Col>
       </Row>
       <br />
@@ -77,6 +87,8 @@ export default class PreExamMode extends Vue {
   topicUploadList: Topic[] = [];
   // 考題清單
   topicList: Topic[] = [];
+  // isLoading
+  isLoading = false;
 
   topicFromWhere: Source = Source.SELECT; //先寫死
 
@@ -88,6 +100,7 @@ export default class PreExamMode extends Vue {
    * 按下確定
    */
   async clickConfirm(): Promise<void> {
+    this.isLoading = true;
     for (let libName of this.selectedTopics) {
       let temp = await this.axios.get(
         `https://seoyuzuki.github.io/ExamLib/${libName}`
@@ -146,7 +159,7 @@ export default class PreExamMode extends Vue {
     } else {
       this.$Message.warning("請選擇題庫");
     }
-
+    this.isLoading = false;
     this.saveCookie();
   }
 

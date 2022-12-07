@@ -10,12 +10,8 @@
             multiple
             @on-change="onSelectChange"
           >
-            <Option
-              v-for="topic in topicLibList"
-              :value="topic.topicName"
-              :key="topic.topicName"
-            >
-              {{ topic.topicName }}
+            <Option v-for="topic in topicLibList" :value="topic" :key="topic">
+              {{ topic }}
             </Option>
           </Select>
         </Col>
@@ -53,7 +49,7 @@
       </Row>
       <Row :gutter="16">
         <Col span="24">
-          <Button type="primary" @click="changeMode" long>確定</Button>
+          <Button type="primary" @click="clickConfirm" long>確定</Button>
         </Col>
       </Row>
       <br />
@@ -76,8 +72,11 @@ export default class PreExamMode extends Vue {
   };
   cookies = useCookies().cookies;
   selectedTopics: string[] = [];
-  topicLibList: Topic[] = [];
+  // 題本清單
+  topicLibList: string[] = [];
   topicUploadList: Topic[] = [];
+  // 考題清單
+  topicList: Topic[] = [];
 
   topicFromWhere: Source = Source.SELECT; //先寫死
 
@@ -85,29 +84,39 @@ export default class PreExamMode extends Vue {
   quistionsOrder = "Default";
   optionsOrder = "Sorted";
 
-  changeMode(): void {
+  /**
+   * 按下確定
+   */
+  async clickConfirm(): Promise<void> {
+    for (let libName of this.selectedTopics) {
+      let temp = await this.axios.get(
+        `https://seoyuzuki.github.io/ExamLib/${libName}`
+      );
+      this.topicList.push(temp.data);
+    }
+
     if (this.topicList.length > 0) {
       let sortedTopicList: Topic[] = JSON.parse(JSON.stringify(this.topicList));
       if (this.quistionsOrder === "Default") {
         // DO nothing
       } else if (this.quistionsOrder === "Sorted") {
-        sortedTopicList.forEach((qList) => {
+        sortedTopicList.forEach(qList => {
           // 排序
           qList.questionElementList = qList.questionElementList.sort((a, b) => {
             return parseInt(a.title) - parseInt(b.title);
           });
         });
       } else if (this.quistionsOrder === "Random") {
-        sortedTopicList.forEach((qList) => {
+        sortedTopicList.forEach(qList => {
           // 亂序
           shuffle(qList.questionElementList);
         });
       }
 
       if (this.optionsOrder === "Random") {
-        sortedTopicList.forEach((qList) => {
+        sortedTopicList.forEach(qList => {
           // 亂序
-          qList.questionElementList.forEach((e) => {
+          qList.questionElementList.forEach(e => {
             shuffle(e.options);
           });
         });
@@ -117,11 +126,11 @@ export default class PreExamMode extends Vue {
         let reviewQuestionList: ReviewQuestion[] = JSON.parse(
           this.cookies.get("reviewList")
         );
-        sortedTopicList.forEach((qList) => {
+        sortedTopicList.forEach(qList => {
           // 亂序
           qList.questionElementList = qList.questionElementList.filter(
-            (qElement) => {
-              return reviewQuestionList.some((reviewQuestion) => {
+            qElement => {
+              return reviewQuestionList.some(reviewQuestion => {
                 return (
                   reviewQuestion.topicName === qList.topicName &&
                   reviewQuestion.title === qElement.title &&
@@ -147,7 +156,7 @@ export default class PreExamMode extends Vue {
       JSON.stringify({
         quistionsOrder: this.quistionsOrder,
         optionsOrder: this.optionsOrder,
-        selectedTopics: this.selectedTopics,
+        selectedTopics: this.selectedTopics
       }),
       "3y"
     ); // 3 year after, expire
@@ -156,19 +165,6 @@ export default class PreExamMode extends Vue {
   async readFile(): Promise<void> {
     this.topicFromWhere = Source.UPLOAD;
     this.topicUploadList = await getTopicsByFile(this.$refs.file.files);
-  }
-
-  get topicList(): Topic[] {
-    if (this.topicFromWhere === Source.SELECT) {
-      // 顯示下拉選項區選擇的topic
-      return this.topicLibList.filter((e: Topic) =>
-        this.selectedTopics.includes(e.topicName)
-      );
-    }
-    if (this.topicFromWhere === Source.UPLOAD) {
-      return this.topicUploadList;
-    }
-    return [];
   }
 
   onSelectChange(): void {
@@ -191,10 +187,18 @@ export default class PreExamMode extends Vue {
   }
 
   loadTopicLib(): void {
-    let jsons = require.context("../topicLib", false, /\.json$/);
-    this.topicLibList = jsons.keys().map((obj) => {
-      return jsons(obj);
-    });
+    // 找本地JSON
+    // let jsons = require.context("../assets/topicLib", false, /\.json$/);
+    // this.topicLibList = jsons.keys().map((obj) => {
+    //   return jsons(obj);
+    // });
+
+    // 請求倉庫
+    this.axios
+      .get(`https://seoyuzuki.github.io/ExamLib/libList.json`)
+      .then(response => {
+        this.topicLibList = response.data.libList;
+      });
   }
 }
 </script>

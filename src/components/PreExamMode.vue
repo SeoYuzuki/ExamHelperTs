@@ -82,9 +82,19 @@ export default class PreExamMode extends Vue {
   };
   cookies = useCookies().cookies;
   selectedTopics: string[] = [];
-  // 題本清單
-  topicLibList: string[] = [];
+
   topicUploadList: Topic[] = [];
+  // 本地題庫
+  localLibList: Topic[] = [];
+  // 遠端題庫清單(name list)
+  remoteLibList: string[] = [];
+  // 題庫清單
+  get topicLibList(): string[] {
+    let list: string[] = JSON.parse(JSON.stringify(this.remoteLibList));
+    this.localLibList.forEach(e => list.push(e.topicName));
+    return list;
+  }
+
   // 考題清單
   topicList: Topic[] = [];
   // isLoading
@@ -102,10 +112,19 @@ export default class PreExamMode extends Vue {
   async clickConfirm(): Promise<void> {
     this.isLoading = true;
     for (let libName of this.selectedTopics) {
-      let temp = await this.axios.get(
-        `https://seoyuzuki.github.io/ExamLib/${libName}`
+      let localTopic: Topic | undefined = this.localLibList.find(
+        e => e.topicName === libName
       );
-      this.topicList.push(temp.data);
+      if (localTopic) {
+        this.topicList.push(localTopic);
+      } else {
+        let temp = await this.axios.get(
+          `https://seoyuzuki.github.io/ExamLib/${libName}`
+        );
+        if (temp) {
+          this.topicList.push(temp.data);
+        }
+      }
     }
 
     if (this.topicList.length > 0) {
@@ -201,16 +220,16 @@ export default class PreExamMode extends Vue {
 
   loadTopicLib(): void {
     // 找本地JSON
-    // let jsons = require.context("../assets/topicLib", false, /\.json$/);
-    // this.topicLibList = jsons.keys().map((obj) => {
-    //   return jsons(obj);
-    // });
+    let jsons = require.context("../assets/topicLib", false, /\.json$/);
+    this.localLibList = jsons.keys().map(obj => {
+      return jsons(obj);
+    });
 
     // 請求倉庫
     this.axios
       .get(`https://seoyuzuki.github.io/ExamLib/libList.json`)
       .then(response => {
-        this.topicLibList = response.data.libList;
+        this.remoteLibList = response.data.libList;
       });
   }
 }

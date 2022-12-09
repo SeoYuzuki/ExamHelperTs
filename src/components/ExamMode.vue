@@ -210,10 +210,10 @@ export default class ExamMode extends Vue.with(Props) {
     if (this.isChecked) {
       if (this.questionElement.answerType == "choice") {
         let temp: string[] = [];
-        this.questionElement.answersList.forEach((answer) => {
+        this.questionElement.answersList.forEach(answer => {
           temp.push(
             charCodeMap[
-              this.questionElement.options.findIndex((option) => {
+              this.questionElement.options.findIndex(option => {
                 return answer == option.optTitle;
               }) + 1
             ]
@@ -221,12 +221,12 @@ export default class ExamMode extends Vue.with(Props) {
         });
         this.$Message["success"]({
           background: true,
-          content: temp,
+          content: temp
         });
       } else if (this.questionElement.answerType == "non-choice") {
         this.$Message["success"]({
           background: true,
-          content: this.questionElement.answersList,
+          content: this.questionElement.answersList
         });
       }
     }
@@ -276,7 +276,7 @@ export default class ExamMode extends Vue.with(Props) {
     );
 
     let reviewQuestion: ReviewQuestion | undefined = reviewQuestionList.find(
-      (e) => {
+      e => {
         return (
           e.topicName === this.topic.topicName &&
           e.title === this.questionElement.title
@@ -296,7 +296,7 @@ export default class ExamMode extends Vue.with(Props) {
       this.cookies.get("reviewList")
     );
     let reviewQuestion: ReviewQuestion | undefined = reviewQuestionList.find(
-      (e) => {
+      e => {
         return (
           e.topicName === this.topic.topicName &&
           e.title === this.questionElement.title
@@ -309,7 +309,7 @@ export default class ExamMode extends Vue.with(Props) {
       reviewQuestionList.push({
         topicName: this.topic.topicName,
         title: this.questionElement.title,
-        starValue: this.starValue,
+        starValue: this.starValue
       });
     }
 
@@ -326,7 +326,7 @@ export default class ExamMode extends Vue.with(Props) {
       this.selectedItems.push(ansKey);
     } else {
       // remove
-      this.selectedItems = this.selectedItems.filter((item) => item !== ansKey);
+      this.selectedItems = this.selectedItems.filter(item => item !== ansKey);
     }
   }
 
